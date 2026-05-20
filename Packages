@@ -13,6 +13,8 @@ Section: Tweaks
 Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
 Name: Notification Filter
+Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
 
 Package: com.tune.notificationfilter
 Version: 1.1.0
@@ -29,6 +31,8 @@ Section: Tweaks
 Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
 Name: Notification Filter
+Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
 
 Package: com.tune.notificationfilter
 Version: 1.1.0
@@ -45,4 +49,6 @@ Section: Tweaks
 Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
 Name: Notification Filter
+Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
 
