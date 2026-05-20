@@ -10,8 +10,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "WatchFix 是用于改善旧版 iOS 与 Apple Watch 连接、配对和协同功能兼容性的工具。<br><br>本分支重写并扩充了应用内插件说明，把防止信息卸载从原来的AppsSupport拆分出来；应用内关于页面切换语言；增加屏蔽iPhone上面的watch更新提示。一些界面的优化",
-          "useRawFormat": true
+          "markdown": "WatchFix 是用于改善旧版 iOS 与 Apple Watch 连接、配对和协同功能兼容性的工具。\n\n本分支重写并扩充了应用内插件说明，把“防止信息卸载”从原来的 AppsSupport 中拆分出来；应用内关于页面支持语言切换，并增加 iPhone 端 watchOS 更新提示屏蔽能力。\n\n当前版本同时包含一些界面和说明文案优化。"
         },
         {
           "class": "DepictionSpacerView",
@@ -38,8 +37,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新 WatchFix mod 包，扩充应用内插件说明与多语言帮助，并细分手表 App 安装兼容、信息相关兼容和 watchOS 更新屏蔽模块。",
-          "useRawFormat": true
+          "markdown": "更新 WatchFix mod 包，扩充应用内插件说明与多语言帮助，并细分手表 App 安装兼容、信息相关兼容和 watchOS 更新屏蔽模块。"
         }
       ]
     }

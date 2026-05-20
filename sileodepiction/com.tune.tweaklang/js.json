@@ -10,8 +10,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "TweakLang 用于为 iPhone <strong>设置.app</strong> 中的越狱插件设置页单独指定显示语言。它不会修改系统全局语言，也不会改变普通 App 本体界面，只处理 PreferenceBundle 等越狱插件偏好面板的本地化读取。<br><br>插件会扫描已安装的 tweak 设置面板，为每个面板保存独立语言覆盖值，并通过运行时拦截 NSBundle 本地化资源读取来选择对应的 .lproj/.strings 资源。你可以让某个插件跟随系统，也可以为它指定已存在的语言包。<br><br>适用对象是使用标准 .lproj/.strings 或 NSBundle 本地化流程的插件设置页。若目标插件文字硬编码、没有语言包，或使用非常规字符串读取方式，则可能无法切换。<br><br>TweakLang 自带设置面板，支持中英文界面，卸载时会清理偏好文件。",
-          "useRawFormat": true
+          "markdown": "TweakLang 用于为 iPhone **设置.app** 中的越狱插件设置页单独指定显示语言。它不会修改系统全局语言，也不会改变普通 App 本体界面，只处理 PreferenceBundle 等越狱插件偏好面板的本地化读取。\n\n插件会扫描已安装的 tweak 设置面板，为每个面板保存独立语言覆盖值，并通过运行时拦截 NSBundle 本地化资源读取来选择对应的 .lproj/.strings 资源。你可以让某个插件跟随系统，也可以为它指定已存在的语言包。\n\n适用对象是使用标准 .lproj/.strings 或 NSBundle 本地化流程的插件设置页。若目标插件文字硬编码、没有语言包，或使用非常规字符串读取方式，则可能无法切换。\n\nTweakLang 自带设置面板，支持中英文界面，卸载时会清理偏好文件。"
         },
         {
           "class": "DepictionSpacerView",
@@ -38,8 +37,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "为单个越狱插件偏好设置页面自定义显示语言。",
-          "useRawFormat": true
+          "markdown": "为单个越狱插件偏好设置页面自定义显示语言。"
         }
       ]
     }

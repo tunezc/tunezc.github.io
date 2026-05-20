@@ -10,8 +10,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "屏蔽学习通开屏广告",
-          "useRawFormat": true
+          "markdown": "超星学习通开屏广告屏蔽插件，用于减少启动应用时的广告页和等待干扰。\n\n安装后请彻底结束学习通并重新打开。若学习通后续版本调整广告加载逻辑，可能需要重新适配。"
         },
         {
           "class": "DepictionSpacerView",
@@ -38,8 +37,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "First",
-          "useRawFormat": true
+          "markdown": "初始发布：屏蔽学习通开屏广告。"
         }
       ]
     }

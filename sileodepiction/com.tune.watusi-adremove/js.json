@@ -10,8 +10,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Watusi AD Remove 用于移除 WhatsApp 聊天界面中由 Watusi 注入的顶部横幅广告。<br><br>插件会在运行时处理 Watusi 广告管理对象，尝试停止 banner view 并移除广告容器；同时屏蔽“如何去广告”的提示弹窗路径，减少聊天页面顶部广告和相关弹窗干扰。<br><br>当前版本专注于 Watusi 顶部横幅广告，不等同于 WhatsApp 全局去广告，也不会处理与 Watusi 横幅无关的界面内容。安装后请彻底结束 WhatsApp 并重新打开。",
-          "useRawFormat": true
+          "markdown": "Watusi AD Remove 用于移除 WhatsApp 聊天界面中由 Watusi 注入的顶部横幅广告。\n\n插件会在运行时处理 Watusi 广告管理对象，尝试停止 banner view 并移除广告容器；同时屏蔽“如何去广告”的提示弹窗路径，减少聊天页面顶部广告和相关弹窗干扰。\n\n当前版本专注于 Watusi 顶部横幅广告，不等同于 WhatsApp 全局去广告，也不会处理与 Watusi 横幅无关的界面内容。安装后请彻底结束 WhatsApp 并重新打开。"
         },
         {
           "class": "DepictionSpacerView",
@@ -38,8 +37,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "移除 Watusi 聊天顶部横幅广告，并屏蔽去广告提示弹窗路径。",
-          "useRawFormat": true
+          "markdown": "移除 Watusi 聊天顶部横幅广告，并屏蔽去广告提示弹窗路径。"
         }
       ]
     }

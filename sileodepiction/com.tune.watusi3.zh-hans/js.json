@@ -10,8 +10,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "为 Watusi 3 for WhatsApp 提供简体中文语言包，基于 Watusi 3 v1.3.9 适配。<br><br>安装后会加入简体中文翻译资源，并通过最小运行时 hook 将 <strong>Other Settings -> Language</strong> 菜单补充为可选择 <strong>简体中文</strong>。选择后，Watusi 3 的设置项和相关 Watusi 控制中心资源会优先使用本包提供的 zh-Hans 文案。<br><br>使用时请先安装 Watusi 3，再安装本语言包；安装后彻底结束 WhatsApp 并重新打开，在 Watusi 的语言设置中选择简体中文。若保持 Auto，也可以在系统或 WhatsApp 语言为简体中文时尝试自动匹配。<br><br>本包只面向 Watusi 3 插件本身，不负责翻译 WhatsApp 原生界面。",
-          "useRawFormat": true
+          "markdown": "为 Watusi 3 for WhatsApp 提供简体中文语言包，基于 Watusi 3 v1.3.9 适配。\n\n安装后会加入简体中文翻译资源，并通过最小运行时 hook 将 **Other Settings -> Language** 菜单补充为可选择 **简体中文**。选择后，Watusi 3 的设置项和相关 Watusi 控制中心资源会优先使用本包提供的 zh-Hans 文案。\n\n使用时请先安装 Watusi 3，再安装本语言包；安装后彻底结束 WhatsApp 并重新打开，在 Watusi 的语言设置中选择简体中文。若保持 Auto，也可以在系统或 WhatsApp 语言为简体中文时尝试自动匹配。\n\n本包只面向 Watusi 3 插件本身，不负责翻译 WhatsApp 原生界面。"
         },
         {
           "class": "DepictionSpacerView",
@@ -38,8 +37,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "提供 Watusi 3 v1.3.9 简体中文资源，并在语言菜单中补充简体中文选项。",
-          "useRawFormat": true
+          "markdown": "提供 Watusi 3 v1.3.9 简体中文资源，并在语言菜单中补充简体中文选项。"
         }
       ]
     }
