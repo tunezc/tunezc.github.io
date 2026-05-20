@@ -10,8 +10,8 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Notification Filter 用于在越狱环境中按关键词或正则表达式过滤通知。它支持按 **标题、副标题、正文、全部文本** 四种范围匹配，并内置 **包含规则、排除规则、正则规则** 三种模式。\\n\\n你既可以为单个 App 单独配置规则，也可以启用全局规则统一处理常见噪声通知，适合屏蔽营销推送、重复提醒、无关提示等内容。\\n\\n插件同时提供 **过滤日志、历史通知扫描、规则 JSON 导入导出** 等能力，方便快速调试规则并迁移配置。",
-          "useRawFormat": false
+          "markdown": "Notification Filter 用于在越狱环境中按关键词或正则表达式过滤通知。它支持按 <strong>标题、副标题、正文、全部文本</strong> 四种范围匹配，并内置 <strong>包含规则、排除规则、正则规则</strong> 三种模式。<br><br>你既可以为单个 App 单独配置规则，也可以启用全局规则统一处理常见噪声通知，适合屏蔽营销推送、重复提醒、无关提示等内容。<br><br>插件同时提供 <strong>过滤日志、历史通知扫描、规则 JSON 导入导出</strong> 等能力，方便快速调试规则并迁移配置。",
+          "useRawFormat": true
         },
         {
           "class": "DepictionScreenshotsView",
@@ -34,41 +34,6 @@
         {
           "class": "DepictionSpacerView",
           "spacing": 16
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "特点",
-          "useBoldText": true,
-          "useBottomMargin": false
-        },
-        {
-          "class": "DepictionSpacerView",
-          "spacing": 8
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "规则类型",
-          "text": "包含、排除、正则"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "规则范围",
-          "text": "标题 / 副标题 / 正文 / 全部文本"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "配置方式",
-          "text": "全局规则 + 单应用规则"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "附加能力",
-          "text": "过滤日志、历史扫描、JSON 导入导出"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "兼容包型",
-          "text": "rootful / rootless / roothide"
         }
       ]
     },
@@ -84,8 +49,8 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 提供全局规则、单应用规则、过滤日志与规则导入导出",
-          "useRawFormat": false
+          "markdown": "提供全局规则、单应用规则、过滤日志与规则导入导出",
+          "useRawFormat": true
         }
       ]
     }
