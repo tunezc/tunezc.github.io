@@ -1,0 +1,22 @@
+Origin: Tune's repo
+Label: Tune's repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Tune's repo
+Homepage: https://tunezc.github.io/
+Date: Wed, 20 May 2026 13:44:29 +0000
+MD5Sum:
+ a473c7d0f62a4f550948a0b633e11819             1553 Packages
+ 55f1ab2e4ab7a9897a8a7a6c768ca71c              616 Packages.gz
+ 945ccb2c83bbd36c502a991d904005cc              672 Packages.xz
+ ec2aa6563a4c7fbe041158a3ee5c0a52              701 Packages.bz2
+ fd22561f9e99d86de1aa62f3209a36e6              594 Packages.zst
+SHA256:
+ 0b7ec85caf65908f0deafecb9ab107bb7f7190a4a8d78cd1babeb929013bf462             1553 Packages
+ 53266bbea209137f95702fdf54442961c401012f2fb862f96259558935d47ef7              616 Packages.gz
+ 30b9968c1f9fc0c89315763d610d04990062cf77ff280643de06f8de9f1018b5              672 Packages.xz
+ f17a5e86c7f82b31dbd59494f7baea3b7cb955a3eda83116b805f58cd74ba677              701 Packages.bz2
+ 9f58100da01acea89dbbee1576ac7f6f452327397f48fedbfa28a8b9305058e8              594 Packages.zst

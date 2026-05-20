@@ -1,0 +1,48 @@
+Package: com.tune.notificationfilter
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Tune
+Installed-Size: 1028
+Depends: mobilesubstrate, preferenceloader
+Filename: rootful/NotificationFilter_1.1.0_rootful_arm.deb
+Size: 248316
+MD5sum: 3940778e2a17dc2dd3339dc962f547c1
+SHA1: 93282c663cbd2acec1e7ac82a68e5aa850e12c9f
+SHA256: f0450928f84e5b4a834db1116ab46c7b6bee66a099d66c9cad7e2d68cd6a6c60
+Section: Tweaks
+Description: Powerful notification filtering for jailbroken iOS
+Author: Tune
+Name: Notification Filter
+
+Package: com.tune.notificationfilter
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 1028
+Depends: mobilesubstrate, preferenceloader
+Filename: rootless/NotificationFilter_1.1.0_rootless_arm64.deb
+Size: 247662
+MD5sum: 0ffe9e8ea079dd24fb85168cabee223b
+SHA1: df6ac32f0fb87563ac569c675c48baf59fc3c402
+SHA256: b97045a1e365ef9ce98ad26f1fa5873850893bf56c94cf6ab4e27c6e8d57bbfc
+Section: Tweaks
+Description: Powerful notification filtering for jailbroken iOS
+Author: Tune
+Name: Notification Filter
+
+Package: com.tune.notificationfilter
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 1028
+Depends: mobilesubstrate, preferenceloader
+Filename: roothide/NotificationFilter_1.1.0_roothide_arm64e.deb
+Size: 245280
+MD5sum: ad4af309378af5163502f0c96fe9116a
+SHA1: 090dbc7689078a0d499a645045ee9c36862948e0
+SHA256: 00c54b50d77a943b0d17765744a61462a0d5d401086ab70f6a795874c02e9b29
+Section: Tweaks
+Description: Powerful notification filtering for jailbroken iOS
+Author: Tune
+Name: Notification Filter
+
