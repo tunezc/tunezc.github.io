@@ -13,6 +13,7 @@ Priority: optional
 Description: 限制设备充电上限，适合长时间插电时保护电池健康；此修改版优化了应用界面。
 Author: tune
 Name: Modified ChargeLimiter
+Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
 
 Package: com.tune.notificationfilter
@@ -47,6 +48,7 @@ Section: Localization
 Description: 为 Watusi 3 for WhatsApp 提供简体中文语言包，可在插件内切换，基于 Watusi 3 v1.3.9 适配。
 Author: Tune
 Name: Watusi 3 Simplified Chinese Language Pack
+Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/js.json
 
 Package: cn.fkj233.watchfix.mod
@@ -64,6 +66,7 @@ Section: Tweaks
 Description: 修复旧版 iOS 与 Apple Watch 的连接和配对相关问题，包含消息、查找手表、同步和部分系统功能兼容支持。
 Author: 577FKJ
 Name: WatchFix
+Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
 
 Package: com.chargelimiter.mod
@@ -81,6 +84,7 @@ Priority: optional
 Description: 限制设备充电上限，适合长时间插电时保护电池健康；此修改版优化了应用界面。
 Author: tune
 Name: Modified ChargeLimiter
+Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
 
 Package: com.tune.chaoxinglaunchadblock
@@ -98,6 +102,7 @@ Section: Tweaks
 Description: 屏蔽学习通启动开屏广告请求，减少应用启动时的广告干扰。
 Author: tune
 Name: ChaoxingLaunchAdBlock
+Icon: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/js.json
 
 Package: com.tune.h3kbhook
@@ -115,6 +120,7 @@ Section: Tweaks
 Description: 解锁元书输入法 Pro 相关功能，覆盖主应用和键盘扩展。
 Author: Tune
 Name: H3kbHook
+Icon: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/js.json
 
 Package: com.tune.notificationfilter
@@ -150,8 +156,8 @@ Section: Tweaks
 Homepage: https://github.com/tunecc/TweakLang
 Description: 为单个越狱插件的设置页面自定义显示语言，便于在系统设置中切换和管理插件偏好语言。
 Author: Tune
-Icon: https://raw.githubusercontent.com/tunecc/TweakLang/main/tweaklang.png
 Name: TweakLang
+Icon: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/js.json
 
 Package: com.tune.watusi3.zh-hans
@@ -168,6 +174,7 @@ Section: Localization
 Description: 为 Watusi 3 for WhatsApp 提供简体中文语言包，可在插件内切换，基于 Watusi 3 v1.3.9 适配。
 Author: Tune
 Name: Watusi 3 Simplified Chinese Language Pack
+Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/js.json
 
 Package: cn.fkj233.watchfix.mod
@@ -185,6 +192,7 @@ Section: Tweaks
 Description: 修复旧版 iOS 与 Apple Watch 的连接和配对相关问题，包含消息、查找手表、同步和部分系统功能兼容支持。
 Author: 577FKJ
 Name: WatchFix
+Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
 
 Package: com.chargelimiter.mod
@@ -202,6 +210,7 @@ Priority: optional
 Description: 限制设备充电上限，适合长时间插电时保护电池健康；此修改版优化了应用界面。
 Author: tune
 Name: Modified ChargeLimiter
+Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
 
 Package: com.tune.chaoxinglaunchadblock
@@ -219,6 +228,7 @@ Section: Tweaks
 Description: 屏蔽学习通启动开屏广告请求，减少应用启动时的广告干扰。
 Author: tune
 Name: ChaoxingLaunchAdBlock
+Icon: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/js.json
 
 Package: com.tune.h3kbhook
@@ -236,6 +246,7 @@ Section: Tweaks
 Description: 解锁元书输入法 Pro 相关功能，覆盖主应用和键盘扩展。
 Author: Tune
 Name: H3kbHook
+Icon: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/js.json
 
 Package: com.tune.notificationfilter
@@ -271,8 +282,8 @@ Section: Tweaks
 Homepage: https://github.com/tunecc/TweakLang
 Description: 为单个越狱插件的设置页面自定义显示语言，便于在系统设置中切换和管理插件偏好语言。
 Author: Tune
-Icon: https://raw.githubusercontent.com/tunecc/TweakLang/main/tweaklang.png
 Name: TweakLang
+Icon: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/js.json
 
 Package: com.tune.watusi-adremove
@@ -290,6 +301,7 @@ Section: Tweaks
 Description: 移除 WhatsApp 聊天界面顶部的 Watusi 广告横幅。
 Author: tune
 Name: Watusi AD Remove
+Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi-adremove/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.watusi-adremove/js.json
 
 Package: com.tune.watusi3.zh-hans
@@ -306,4 +318,5 @@ Section: Localization
 Description: 为 Watusi 3 for WhatsApp 提供简体中文语言包，可在插件内切换，基于 Watusi 3 v1.3.9 适配。
 Author: Tune
 Name: Watusi 3 Simplified Chinese Language Pack
+Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/js.json
