@@ -7,22 +7,16 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Tune's repo
 Homepage: https://tunezc.github.io/
-Date: Wed, 20 May 2026 17:45:34 +0000
+Date: Thu, 21 May 2026 04:39:51 +0000
 MD5Sum:
- 9bfc1e35d4dcef3b63dd00ace71271a7            13394 Packages
- 22d9535e05c74488509c09ef6126fa13             3566 Packages.gz
- 3bd98ece12ca15fbad90225e3b982fc9             3196 Packages.xz
- 94cb6cc082a4c137eb9ee9606f278138             3650 Packages.bz2
- 5ca0e335dd7db2b863d2f079e86cdf85             3394 Packages.zst
-SHA1:
- 1effda9b8647c74506bbfb34a00318cdcbdc86a6            13394 Packages
- aacf0a6d4e0dbb3e764835339233323c05a2775f             3566 Packages.gz
- c6134b1f8e09c48f3397a241d2f80d1ed54f0d40             3196 Packages.xz
- 58a69b9567fa1cabe16e7477086883dedb7a6da5             3650 Packages.bz2
- 56e7948f0c52f58d6fa927c78a4f05a75b0e0737             3394 Packages.zst
+ 9110b2e4be6dab5ed8e16c2bb0268e68            14267 Packages
+ fe5a7f6a90f010dee0b25f0bc9057dda             3529 Packages.gz
+ f661a83692f054355499b19b70f204f0             3220 Packages.xz
+ 7571305433eb5eb00d7a827cd2a98821             3599 Packages.bz2
+ ae46972aec6f82c92528c031b451caf1             3493 Packages.zst
 SHA256:
- ac6e4fd57d5c50c97ef950dac887c2cc8d44396b0bca5b2d39767a1e80737271            13394 Packages
- ece37b41abcd346e68d5f240f9df778a63c1627d4788d493120e4eafcdc31b6d             3566 Packages.gz
- e0f451ec4e627f8dd879a5230b95e718e9aa14fc8e8c9dc06f7f45a1244ead53             3196 Packages.xz
- 37c46dec3a8adf6c35f424e26b71dc2405acace876ca5e3a52e4f081d72d72b6             3650 Packages.bz2
- b23ede4b388fa913f9f5d88ba0a9c18245c2aaa8949868ae00b388af1e2a1d43             3394 Packages.zst
+ fe8cf6dc958a8e7ccbddd2b018013222c0dcea89a933ddb73bf6a26fda048b3d            14267 Packages
+ f51b774bcacfdd06da63fefa5055219a38f39691dfcaa2194c1fa0c08eafd767             3529 Packages.gz
+ 161e5995fc241bf5b31ce59e2142b5a0efb029b13736d03cb0a8be35fdc2f89c             3220 Packages.xz
+ fd6ea284ab8cf9a508ca097d04376bfe235b5c4d68f80a180a88b94f18735ef0             3599 Packages.bz2
+ 41aa45786cf25a73912176223aa8b57db61db9e984e0bace5462b498e1c61457             3493 Packages.zst

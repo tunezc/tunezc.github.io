@@ -10,7 +10,7 @@ SHA1: aa135e1679bdadac8993cc2dafb48bb777b0da56
 SHA256: 37a9fb4cb8f1d1497a25dddff3d62a8d950164459ee82c2628b2c397240c4103
 Section: Applications
 Priority: optional
-Description: 限制设备充电上限，适合长时间插电时保护电池健康；此修改版优化了应用界面。
+Description: 优化了一下界面
 Author: tune
 Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
@@ -28,7 +28,7 @@ MD5sum: 3940778e2a17dc2dd3339dc962f547c1
 SHA1: 93282c663cbd2acec1e7ac82a68e5aa850e12c9f
 SHA256: f0450928f84e5b4a834db1116ab46c7b6bee66a099d66c9cad7e2d68cd6a6c60
 Section: Tweaks
-Description: 按关键词、正则和应用范围过滤通知，支持全局规则、单应用规则、过滤日志和规则导入导出。
+Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
 Name: Notification Filter
 Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
@@ -45,7 +45,7 @@ MD5sum: 3d2473e5c42e85882773016b0a736b19
 SHA1: a3e56b3a5b87878b68c5b5f4a44e75d0a104d875
 SHA256: ac6d745ad399bdc4ce3a59b9c773927d15a6165a364f2d121fb31696f01cd054
 Section: Localization
-Description: 为 Watusi 3 for WhatsApp 提供简体中文语言包，可在插件内切换，基于 Watusi 3 v1.3.9 适配。
+Description: 为Watusi 3 for WhatsApp提供中文包（插件内可切换），基于v1.3.9开发
 Author: Tune
 Name: Watusi 3 Simplified Chinese Language Pack
 Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/icon.png
@@ -63,7 +63,25 @@ MD5sum: 3ec0b60051caa6d9d56102536cacaa9b
 SHA1: d5bdf8b03eac7e1a17bccf7cb4c9ffcaa18102e2
 SHA256: 92dbfa7776b9d1b0088e0a39ad2ee46ddd3a1df76c2261bc0e09a6e6238e72b2
 Section: Tweaks
-Description: 修复旧版 iOS 与 Apple Watch 的连接和配对相关问题，包含消息、查找手表、同步和部分系统功能兼容支持。
+Description: Fix Apple watch connection issues
+Author: 577FKJ
+Name: WatchFix
+Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
+
+Package: cn.fkj233.watchfix.mod
+Version: 2.0.3
+Architecture: iphoneos-arm64
+Maintainer: 577FKJ
+Installed-Size: 5124
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: rootless/cn.fkj233.watchfix.mod_2.0.3_iphoneos-arm64.deb
+Size: 667314
+MD5sum: ee36af475b93fc13df9c60994d034b9b
+SHA1: 79fc47679ecabb85f14940591d37e81753940619
+SHA256: 38ee7d8b7d4019a3d828197327fabec75d0e5090a202937a96eab0596dc05e1d
+Section: Tweaks
+Description: Fix Apple watch connection issues
 Author: 577FKJ
 Name: WatchFix
 Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
@@ -81,7 +99,7 @@ SHA1: a467b1784c6c2fec366294a5f3f8e42c61e4ee93
 SHA256: 537f573559ea9cdcc0d21c45d282961bbf567a4139253011c4530c0a54fc1f54
 Section: Applications
 Priority: optional
-Description: 限制设备充电上限，适合长时间插电时保护电池健康；此修改版优化了应用界面。
+Description: 优化了一下界面
 Author: tune
 Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
@@ -99,7 +117,7 @@ MD5sum: fbeb63927e3007bc6f472a7fbbe5e6f2
 SHA1: f5d24b1d481fdb4dbaadc9f649d2146637073c80
 SHA256: da970e60f38a84eec6f6f4535b6cea483f9bb668000c646a045ec0f66eb61a6f
 Section: Tweaks
-Description: 屏蔽学习通启动开屏广告请求，减少应用启动时的广告干扰。
+Description: Block Chaoxing splash ad launch requests.
 Author: tune
 Name: ChaoxingLaunchAdBlock
 Icon: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/icon.png
@@ -117,7 +135,7 @@ MD5sum: aadab41bb561d38e31342140bc1a7400
 SHA1: 2946f64a474a7320267c3c6fc9c45fb1f2a4a838
 SHA256: 535d9dbaa4bea2d6d9002c4d77e82bd7c7e9a79efdc5ec3a5f030f6144de8ec4
 Section: Tweaks
-Description: 解锁元书输入法 Pro 相关功能，覆盖主应用和键盘扩展。
+Description: stable h3kb pro unlock package for app and keyboard extension
 Author: Tune
 Name: H3kbHook
 Icon: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/icon.png
@@ -135,7 +153,7 @@ MD5sum: 0ffe9e8ea079dd24fb85168cabee223b
 SHA1: df6ac32f0fb87563ac569c675c48baf59fc3c402
 SHA256: b97045a1e365ef9ce98ad26f1fa5873850893bf56c94cf6ab4e27c6e8d57bbfc
 Section: Tweaks
-Description: 按关键词、正则和应用范围过滤通知，支持全局规则、单应用规则、过滤日志和规则导入导出。
+Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
 Name: Notification Filter
 Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
@@ -154,9 +172,12 @@ SHA1: 76529624683cdb2a336a7506ed407c17579d0ab1
 SHA256: 36f279477c058f48a239b7039056496dd733cb994c0df7a8805d322ae9610624
 Section: Tweaks
 Homepage: https://github.com/tunecc/TweakLang
-Description: 为单个越狱插件的设置页面自定义显示语言，便于在系统设置中切换和管理插件偏好语言。
+Description: 为单个越狱插件偏好设置页面自定义显示语言
+ Customize the display language of individual jailbreak tweak preference panes in Settings.
 Author: Tune
+Icon: https://raw.githubusercontent.com/tunecc/TweakLang/main/tweaklang.png
 Name: TweakLang
+Sileodepiction: https://raw.githubusercontent.com/tunecc/TweakLang/main/depictions/sileo.json
 Icon: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/js.json
 
@@ -171,7 +192,7 @@ MD5sum: dbd0504adbd92589373b447229f54fbc
 SHA1: 0fc0c3ac3998e6ef3bcfa83193afda76576ecf42
 SHA256: 1900689473fce9f4615336a526054d218914aef52593566049de377ddb73e920
 Section: Localization
-Description: 为 Watusi 3 for WhatsApp 提供简体中文语言包，可在插件内切换，基于 Watusi 3 v1.3.9 适配。
+Description: 为Watusi 3 for WhatsApp提供中文包（插件内可切换），基于v1.3.9开发
 Author: Tune
 Name: Watusi 3 Simplified Chinese Language Pack
 Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/icon.png
@@ -189,7 +210,25 @@ MD5sum: 4058c105cc6e397f6be9b9402a862ec8
 SHA1: 48bd49f4129fe142241a6b41f896eb623fad8f51
 SHA256: 0321ff78fab43502aba6dd63194702fab6b12d5745f87714b65ea502ed8824ed
 Section: Tweaks
-Description: 修复旧版 iOS 与 Apple Watch 的连接和配对相关问题，包含消息、查找手表、同步和部分系统功能兼容支持。
+Description: Fix Apple watch connection issues
+Author: 577FKJ
+Name: WatchFix
+Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
+
+Package: cn.fkj233.watchfix.mod
+Version: 2.0.3
+Architecture: iphoneos-arm64e
+Maintainer: 577FKJ
+Installed-Size: 5148
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: roothide/cn.fkj233.watchfix.mod_2.0.3_iphoneos-arm64e.deb
+Size: 673068
+MD5sum: 22b4b188133e707967e339aee0d265d6
+SHA1: 813f6f44ff47d663f7f246364cb70a1d8632a647
+SHA256: b60f1e800dd7e95827a7305b91cc7e2619d6a4ca9a7a38dca556f85a2945326c
+Section: Tweaks
+Description: Fix Apple watch connection issues
 Author: 577FKJ
 Name: WatchFix
 Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
@@ -207,7 +246,7 @@ SHA1: fddb3805245349fe55e9e5984ed3865648d25d9c
 SHA256: bd75b4f770c0acfc35c42958a7fad9c901d42137c0fa1affefecb8897e7866b1
 Section: Applications
 Priority: optional
-Description: 限制设备充电上限，适合长时间插电时保护电池健康；此修改版优化了应用界面。
+Description: 优化了一下界面
 Author: tune
 Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
@@ -225,7 +264,7 @@ MD5sum: b31940df959cce925e73de11a13733b7
 SHA1: 2e6b1ab561a05ac43a184e385fdbbbf358c3ade8
 SHA256: 811c6e3495f4ac4aa714ce7ac3b08e607cd551678b085dddd4316d65e0844243
 Section: Tweaks
-Description: 屏蔽学习通启动开屏广告请求，减少应用启动时的广告干扰。
+Description: Block Chaoxing splash ad launch requests.
 Author: tune
 Name: ChaoxingLaunchAdBlock
 Icon: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/icon.png
@@ -243,7 +282,7 @@ MD5sum: 3ee7d669be04325f4123a277f9352f91
 SHA1: 42a844b6a1a5d35002aff08ce1a2e7073523b65b
 SHA256: d492f4e214578f7723f80f2eaf569ba491fa36d268903a4f7ce95da5110aa799
 Section: Tweaks
-Description: 解锁元书输入法 Pro 相关功能，覆盖主应用和键盘扩展。
+Description: stable h3kb pro unlock package for app and keyboard extension
 Author: Tune
 Name: H3kbHook
 Icon: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/icon.png
@@ -261,7 +300,7 @@ MD5sum: ad4af309378af5163502f0c96fe9116a
 SHA1: 090dbc7689078a0d499a645045ee9c36862948e0
 SHA256: 00c54b50d77a943b0d17765744a61462a0d5d401086ab70f6a795874c02e9b29
 Section: Tweaks
-Description: 按关键词、正则和应用范围过滤通知，支持全局规则、单应用规则、过滤日志和规则导入导出。
+Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
 Name: Notification Filter
 Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
@@ -280,9 +319,12 @@ SHA1: 2dd578d73fd60b149cdb4ea5000ee26f4b1d0080
 SHA256: a7556f7cbf62caf0589a0977f016d8e654f9133ee1978e0eb87295135d0e34f1
 Section: Tweaks
 Homepage: https://github.com/tunecc/TweakLang
-Description: 为单个越狱插件的设置页面自定义显示语言，便于在系统设置中切换和管理插件偏好语言。
+Description: 为单个越狱插件偏好设置页面自定义显示语言
+ Customize the display language of individual jailbreak tweak preference panes in Settings.
 Author: Tune
+Icon: https://raw.githubusercontent.com/tunecc/TweakLang/main/tweaklang.png
 Name: TweakLang
+Sileodepiction: https://raw.githubusercontent.com/tunecc/TweakLang/main/depictions/sileo.json
 Icon: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/js.json
 
@@ -298,7 +340,7 @@ MD5sum: 91c17c1015fc168fb279f74dae0c1bbc
 SHA1: f8933b2f292c0c9b12041b41255f48c8a78ecb4d
 SHA256: 276b99544d17134378d9e6cd62b2319f9a02f2142e51154e0924289d07eaeb3d
 Section: Tweaks
-Description: 移除 WhatsApp 聊天界面顶部的 Watusi 广告横幅。
+Description: Remove the Watusi top banner ad in WhatsApp chat screens.
 Author: tune
 Name: Watusi AD Remove
 Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi-adremove/icon.png
@@ -315,8 +357,9 @@ MD5sum: c655673bc39e69baad457998a04bc7a4
 SHA1: b598ec2767778c65a8a27069e51b954220f3f738
 SHA256: 93c94badb13b9ebeabfb6656869d7a54f1d9ea0a59c68f2296c2b0222aa8fc23
 Section: Localization
-Description: 为 Watusi 3 for WhatsApp 提供简体中文语言包，可在插件内切换，基于 Watusi 3 v1.3.9 适配。
+Description: 为Watusi 3 for WhatsApp提供中文包（插件内可切换），基于v1.3.9开发
 Author: Tune
 Name: Watusi 3 Simplified Chinese Language Pack
 Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/js.json
+
