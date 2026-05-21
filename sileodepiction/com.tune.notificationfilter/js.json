@@ -15,11 +15,19 @@
         {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 8,
-          "itemSize": "{300, 72.55813953488372}",
+          "itemSize": "{300, 649.6}",
           "screenshots": [
             {
-              "accessibilityText": "",
-              "url": ""
+              "accessibilityText": "Notification Filter 截图 1",
+              "url": "https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/screenshot/1.PNG"
+            },
+            {
+              "accessibilityText": "Notification Filter 截图 2",
+              "url": "https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/screenshot/2.PNG"
+            },
+            {
+              "accessibilityText": "Notification Filter 截图 3",
+              "url": "https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/screenshot/3.PNG"
             }
           ]
         },
@@ -29,6 +37,12 @@
         },
         {
           "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/tunecc/NotificationFilter",
+          "openExternal": true
         },
         {
           "class": "DepictionSpacerView",

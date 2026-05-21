@@ -20,6 +20,12 @@
           "class": "DepictionSeparatorView"
         },
         {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/tunecc/WatusiZhHans",
+          "openExternal": true
+        },
+        {
           "class": "DepictionSpacerView",
           "spacing": 16
         }

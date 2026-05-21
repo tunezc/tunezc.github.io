@@ -10,7 +10,34 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "WatchFix 是用于改善旧版 iOS 与 Apple Watch 连接、配对和协同功能兼容性的工具。\n\n本分支重写并扩充了应用内插件说明，把“防止信息卸载”从原来的 AppsSupport 中拆分出来；应用内关于页面支持语言切换，并增加 iPhone 端 watchOS 更新提示屏蔽能力。\n\n当前版本同时包含一些界面和说明文案优化。"
+          "markdown": "WatchFix 是用于改善旧版 iOS 与 Apple Watch 连接、配对和协同功能兼容性的工具。\n\n本分支重写并扩充了应用内插件说明，把“防止信息卸载”从原来的 AppsSupport 中拆分出来；应用内关于页面支持语言切换，并增加 iPhone 端 watchOS 更新提示屏蔽能力。\n\n当前版本同时包含一些界面和说明文案优化。\n\n注意因为没有修改Bundle ID所以需要卸载原版再安装此版本"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{300, 649.6}",
+          "screenshots": [
+            {
+              "accessibilityText": "WatchFix 截图 1",
+              "url": "https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/screenshot/1.PNG"
+            },
+            {
+              "accessibilityText": "WatchFix 截图 2",
+              "url": "https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/screenshot/2.PNG"
+            },
+            {
+              "accessibilityText": "WatchFix 截图 3",
+              "url": "https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/screenshot/3.PNG"
+            },
+            {
+              "accessibilityText": "WatchFix 截图 4",
+              "url": "https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/screenshot/4.PNG"
+            },
+            {
+              "accessibilityText": "WatchFix 截图 5",
+              "url": "https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/screenshot/5.PNG"
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -18,6 +45,12 @@
         },
         {
           "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/tunecc/WatchFix",
+          "openExternal": true
         },
         {
           "class": "DepictionSpacerView",

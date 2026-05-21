@@ -13,11 +13,40 @@
           "markdown": "面向 iPhone 的充电策略调度工具，用于在越狱环境中控制设备何时停充、何时恢复充电，并减少长期高电量、高温和满充停留对电池状态的影响。\n\n它会结合当前电量、温度、外部供电状态、系统优化充电状态和守护进程策略执行控制。当前版本支持电量上限/下限、智能停充、停充时禁流、温度控制、满充计划、限流等级、Powercuff 高温模拟（可能切换不及时）、加速充电（充电时关掉一些服务）、策略诊断、历史统计和策略事件时间线。\n\n这个修改版重点优化了应用界面和信息呈现。\n\n**注意：** 它不是硬件级旁路充电，而是软件层策略控制。启用更激进的禁流或限流选项后，插电使用时仍可能掉电，请根据自己的使用场景调整。"
         },
         {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{300, 649.6}",
+          "screenshots": [
+            {
+              "accessibilityText": "ChargeLimiter 截图 1",
+              "url": "https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/screenshot/1.PNG"
+            },
+            {
+              "accessibilityText": "ChargeLimiter 截图 2",
+              "url": "https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/screenshot/2.PNG"
+            },
+            {
+              "accessibilityText": "ChargeLimiter 截图 3",
+              "url": "https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/screenshot/3.PNG"
+            },
+            {
+              "accessibilityText": "ChargeLimiter 截图 4",
+              "url": "https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/screenshot/4.PNG"
+            }
+          ]
+        },
+        {
           "class": "DepictionSpacerView",
           "spacing": 16
         },
         {
           "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/tunecc/ChargeLimiter",
+          "openExternal": true
         },
         {
           "class": "DepictionSpacerView",
