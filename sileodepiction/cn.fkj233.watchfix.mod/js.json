@@ -64,13 +64,33 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "2.0.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "全站页面图标统一改为 SF Symbols。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "2.0.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "优化整体 UI。\n\n优化功能修复页分组，新增“当前不支持安装的插件”独立区域。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "2.0.2",
           "useBoldText": true,
           "useBottomMargin": false
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "更新 WatchFix mod 包，扩充应用内插件说明与多语言帮助，并细分手表 App 安装兼容、信息相关兼容和 watchOS 更新屏蔽模块。"
+          "markdown": "软件包标识改为 `cn.fkj233.watchfix.mod`。\n\n应用内插件详细说明页已重写并扩充，补上更清楚的功能摘要、使用场景、系统要求、注入目标和重启提示。\n\n插件帮助内容新增应用内语言切换，当前提供英文、简体中文和繁体中文三套文案。\n\nAppsSupport 现在只负责手表 App 安装兼容性问题；新增“避免信息卸载”，专门处理 watchOS 11.4 及之后配对后“信息”消失的问题；新增 WatchOS 更新屏蔽，用于压住 iPhone 上 Watch App 的 watchOS 更新扫描和升级提示。"
         }
       ]
     }

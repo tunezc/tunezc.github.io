@@ -1,16 +1,16 @@
 Package: com.chargelimiter.mod
-Version: 1.13.2
+Version: 1.13.3
 Architecture: iphoneos-arm
 Maintainer: tune
 Depends: firmware (>= 13.0)
-Filename: rootful/ChargeLimiter_1.13.2_rootful_arm.deb
-Size: 646440
-MD5sum: f94e31cdb38ee9896682b6f1fb1625b0
-SHA1: aa135e1679bdadac8993cc2dafb48bb777b0da56
-SHA256: 37a9fb4cb8f1d1497a25dddff3d62a8d950164459ee82c2628b2c397240c4103
+Filename: rootful/ChargeLimiter_1.13.3_rootful_arm.deb
+Size: 645648
+MD5sum: c205d18be448da84dbd1c1844dfcea30
+SHA1: d54eb98b0a7c5052dedf20ca737afaa611e4d348
+SHA256: cb72f9dcb8871a07135f92ba46872bfddb3533e034e7c73f63571d1d1ed46a76
 Section: Applications
 Priority: optional
-Description: 优化了一下界面
+Description: 收敛文件日志并修复配置持久化
 Author: tune
 Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
@@ -124,18 +124,18 @@ Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
 
 Package: com.chargelimiter.mod
-Version: 1.13.2
+Version: 1.13.3
 Architecture: iphoneos-arm64
 Maintainer: tune
 Depends: firmware (>= 13.0)
-Filename: rootless/ChargeLimiter_1.13.2_rootless_arm64.deb
-Size: 646944
-MD5sum: 8757474ff0be603d428d435fa9e7df0e
-SHA1: a467b1784c6c2fec366294a5f3f8e42c61e4ee93
-SHA256: 537f573559ea9cdcc0d21c45d282961bbf567a4139253011c4530c0a54fc1f54
+Filename: rootless/ChargeLimiter_1.13.3_rootless_arm64.deb
+Size: 646004
+MD5sum: 9f84c5e0c8c324853ffee7845aab7c00
+SHA1: fdeaa7e2e7c8537e16c0aa5e5990714419d19ad5
+SHA256: 327cc179162b8436a158dbbc0168b581089df90aec88e71df7c7dad6b4844b61
 Section: Applications
 Priority: optional
-Description: 优化了一下界面
+Description: 收敛文件日志并修复配置持久化
 Author: tune
 Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
@@ -307,18 +307,18 @@ Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
 
 Package: com.chargelimiter.mod
-Version: 1.13.2
+Version: 1.13.3
 Architecture: iphoneos-arm64e
 Maintainer: tune
 Depends: firmware (>= 13.0)
-Filename: roothide/ChargeLimiter_1.13.2_roothide_arm64e.deb
-Size: 646312
-MD5sum: 63dd4862d81d1e1de428c599c576b8ec
-SHA1: fddb3805245349fe55e9e5984ed3865648d25d9c
-SHA256: bd75b4f770c0acfc35c42958a7fad9c901d42137c0fa1affefecb8897e7866b1
+Filename: roothide/ChargeLimiter_1.13.3_roothide_arm64e.deb
+Size: 645764
+MD5sum: b615db30d175354484f53eb0d86d7da4
+SHA1: 9847082aa94881d75ac674cf4a8021f30d308091
+SHA256: 697e8de9b3897b9c489f7112979cd010182738a21d1c8e2590b53be0fead127e
 Section: Applications
 Priority: optional
-Description: 优化了一下界面
+Description: 收敛文件日志并修复配置持久化
 Author: tune
 Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
@@ -452,4 +452,3 @@ Author: Tune
 Name: Watusi 3 Simplified Chinese Language Pack
 Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/js.json
-

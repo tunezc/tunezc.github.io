@@ -60,13 +60,23 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.13.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "收敛文件日志：`aldente.log` 现在只记录异常、失败和 fallback 场景，不再写入 daemon 启动、插拔、正常充停、计划充电更新、悬浮窗显示/隐藏等普通状态。\n\n旧版数据迁移不再迁移历史 `aldente.log`，只迁移配置和数据库；文件日志接口改为错误日志语义，并增加日志大小上限，避免异常重复时持续增长。\n\n修复配置持久化问题。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.13.2",
           "useBoldText": true,
           "useBottomMargin": false
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "优化应用界面，往期记录请看 GitHub。"
+          "markdown": "软件设置新增跳转“配置文件”，点击后会直接定位当前实际使用的配置文件。\n\n修复 roothide 重启用户空间、重新越狱后配置丢失的问题。"
         }
       ]
     }

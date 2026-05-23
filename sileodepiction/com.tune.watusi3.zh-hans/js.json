@@ -37,6 +37,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "0.0.1 / v0.0.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "精简语言包。GitHub release 标记为 `v0.0.2`，但 deb control 版本号仍为 `0.0.1`。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "0.0.1",
           "useBoldText": true,
           "useBottomMargin": false

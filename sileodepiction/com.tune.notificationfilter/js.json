@@ -56,13 +56,23 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.2.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "扫描选词支持中文按单字拆分、英文和数字按单词拆分，更适合从通知历史生成关键词规则。\n\n选中的不连续字词会按原顺序拼接为一条规则，跨标题、副标题、正文选择时自动回落为全文作用域匹配；支持按住滑动连续选择，跨行滑动可继续选中，再次滑过已选项可取消。\n\n扫描选词界面改为更紧凑的流式布局，优化选词按钮尺寸、触控热区、选中反馈和无障碍状态。\n\n修复扫描后大爆炸选词漏字、扫描保存时把非连续选中字词拆成多条规则、以及发布包可能混入宿主机元数据导致 `.deb` 校验失败的问题。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.1.0",
           "useBoldText": true,
           "useBottomMargin": false
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "提供全局规则、单应用规则、过滤日志与规则导入导出。"
+          "markdown": "新增通知中心历史扫描规则生成，支持从通知中心历史中选词生成包含/排除规则。\n\n应用规则页新增扫描按钮，进入时自动请求刷新当前 App 通知历史；支持按应用清空过滤日志。\n\n作用域“消息”改为“正文”，并优化扫描生成规则体验。"
         }
       ]
     }
