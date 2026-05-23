@@ -43,7 +43,27 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "适配元书输入法 v1.6.14。"
+          "markdown": "v1.6.14 适配。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.1.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "加入自适应偏移量处理，减少目标版本差异导致的定位问题。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "初始发布"
         }
       ]
     }

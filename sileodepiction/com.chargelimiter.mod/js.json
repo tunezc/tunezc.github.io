@@ -77,6 +77,206 @@
         {
           "class": "DepictionMarkdownView",
           "markdown": "软件设置新增跳转“配置文件”，点击后会直接定位当前实际使用的配置文件。\n\n修复 roothide 重启用户空间、重新越狱后配置丢失的问题。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.13.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "越狱、rootless、roothide 版本改为使用更稳定的共享应用数据目录；TrollStore 版本继续使用应用沙盒目录。\n\nSailing Mode 默认关闭，补电阈值默认调整为 `5`；配置文件统一命名为 `com.chargelimiter.mod.plist`，并保留旧命名兼容迁移。\n\n修复新版无法正确定位应用数据目录，以及旧版数据迁移/残留检测可能误判当前配置文件的问题。\n\n建议从旧版升级时先卸载旧版再安装。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.13.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "移除充电模式的边缘触发，重整插电保持相关 UI、文案和运行逻辑。\n\n新增关闭历史统计的选项，收口插电保持交互，并补齐数据目录与历史清理逻辑。\n\n修复 roothide 容器路径下“应用数据目录”无法打开，以及“迁移旧版数据”时报 `Target documents path is unavailable.` 的问题。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.12.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "智能停充默认改为开启，新安装后更接近推荐配置；相关文案也做了调整，明确作用范围和失败回退行为。\n\n补齐退出和卸载前的充电状态恢复链路，降低卸载后残留旧充电状态的风险。\n\n修复 iOS 15 图标兼容性问题，并补齐 GitHub Actions 自动发布流程。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.12.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "新增“停充预设”功能，主页可一键应用常用停充电量；预设按钮支持点击应用、长按编辑，软件设置页也新增预设入口。\n\n卸载清理改为由 daemon 直接处理真实数据容器，不再依赖 `com.chargelimiter.mod.containerpath`。\n\n默认策略调整为插电保持开启，并优化 roothide 包构建。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.12.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复高电量插电时禁流不生效的问题。部分设备刚插电时会返回不完整充电信息，现在会延迟重评估并有限次重试，减少需要手动重开禁流的情况。\n\n优化智能停充失败时的回退逻辑：如果 SmartBattery API / PredictiveChargingInhibit 被系统拒绝，或停充后没有进入抑制态，会自动回退到传统 `IsCharging` 停充路径。\n\n智能停充默认改为关闭，新安装、重置配置或补默认值时不会自动开启。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.12.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "优化停止充电电量设为 `100%` 时的软件/系统控制逻辑。\n\n新增通知功能，并优化安装包构建。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.11.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复“插电保持”在还没达到停止电量前就提前生效的问题；现在需要先达到一次设定的停止电量后，保持带宽策略才会接管。\n\n当停止充电设置为 `100%` 时，hold 相关选项会置灰，并给出更明确提示；从 `100%` 调回更低阈值时会自动恢复之前的 hold 设置。\n\n`100%` 模式下电量控制交还给系统，温度控制仍然保留。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.11.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "主界面“停止充电（电量 >=）”新增“设为当前”按钮，可一键把停充阈值设置为当前电量，并同步滑块、数值和顶部电池标记。\n\n优化禁流、插电保持、智能停充等组合同时开启时的互锁逻辑，减少无效或冲突状态。\n\n边缘触发模式下，快捷设置仍会保持“开始充电 < 停止充电”的约束。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.11.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复设备实际使用电池时，主状态仍可能误显示“已连接电源 · 停止充电”的问题。\n\n主界面顶部状态、电池动画和适配器卡片统一按实际供电路径判断。\n\n“守护策略”文案调整为“供电状态”，减少策略状态和实时供电状态混淆；调整关键阈值或高级开关后会立即重新评估策略并刷新显示。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.11.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "新增检查更新功能，发现新版本后可弹窗提示并跳转 GitHub Releases。\n\n重做右上角电池状态图标，充电、低电量、保持、高温暂停等状态更直观。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.10.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "新增插电保持、保持带宽与保持策略，提供更接近电脑插电驻留的保电量体验。\n\n新增第一版智能自适应保持策略，可根据负载、供电环境和温度动态调整行为。\n\n新增 Smart Charge 协调、策略诊断、最近策略切换与长时间事件时间线，排障和长测更直观。\n\n新增满充计划，支持定期临时解除电量上限；修复 `100%` 系统接管模式下的充电图标显示问题，并优化高级设置页面布局。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.6.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "停止充电电量设为 `100%` 时，电量控制交由系统接管，不再按电量阈值主动断充。\n\n保留温度控制与安全兜底策略，`100%` 模式下仍可按温控逻辑介入。\n\n新增“系统电量控制中，温度控制仍生效”浮层提示；停充电量为 `100%` 时图标不再显示绿条。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.6.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复越狱版温度配置保存问题，并优化部分策略逻辑。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.6.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复 TrollStore 版本配置保存问题，并统一颜色背景。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.6",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复 iPad 上点击操作菜单闪退的问题。\n\n优化 iPad 界面布局，支持居中显示与分屏适配。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "新增迁移/删除旧版数据功能，迁移后会自动删除旧版数据。\n\n配置文件目录迁移到应用数据目录中，删除软件时不再额外保留旧数据。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "顶部“ChargeLimiter”右侧新增刷新按钮，便于切换配置后更快让守护进程读取当前电池状态和配置，并立即执行充电策略、刷新界面显示。\n\n补充说明安装包大小变化原因：`Assets.car` 中包含软件图标，不同构建体积可能不同。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "优化 UI 和交互体验。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.9.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "包名/标识更新为 `com.chargelimiter.mod`，避免与原作者包冲突。\n\n完整补齐 Base、英文、简体中文本地化资源，并修复语言切换逻辑。\n\n优化充电与温控设置交互：滑块拖动增加震动反馈，支持震动强度分级。\n\n优化设置页结构、历史统计图表细节、iOS 15 图标兼容和图标颜色语义。\n\n修复温度控制开关进入页面偶发灰色的问题；配置文件保存位置优化，软件设置里新增跳转对应文件夹功能。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.8",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "界面重构：将原有 WebView 界面替换为原生 UIKit，整体风格更现代、流畅。\n\n功能精简：移除悬浮窗相关功能和部分不常用功能。"
         }
       ]
     }

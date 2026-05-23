@@ -73,6 +73,26 @@
         {
           "class": "DepictionMarkdownView",
           "markdown": "新增通知中心历史扫描规则生成，支持从通知中心历史中选词生成包含/排除规则。\n\n应用规则页新增扫描按钮，进入时自动请求刷新当前 App 通知历史；支持按应用清空过滤日志。\n\n作用域“消息”改为“正文”，并优化扫描生成规则体验。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "优化规则编辑页体验，并调整部分界面细节。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "初始发布：提供按关键词和规则过滤通知的基础能力。"
         }
       ]
     }
