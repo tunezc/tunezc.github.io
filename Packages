@@ -1,4 +1,22 @@
 Package: com.chargelimiter.mod
+Version: 1.13.2
+Architecture: iphoneos-arm
+Maintainer: tune
+Depends: firmware (>= 13.0)
+Filename: rootful/ChargeLimiter_1.13.2_rootful_arm.deb
+Size: 646440
+MD5sum: f94e31cdb38ee9896682b6f1fb1625b0
+SHA1: aa135e1679bdadac8993cc2dafb48bb777b0da56
+SHA256: 37a9fb4cb8f1d1497a25dddff3d62a8d950164459ee82c2628b2c397240c4103
+Section: Applications
+Priority: optional
+Description: 优化了一下界面
+Author: tune
+Name: Modified ChargeLimiter
+Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
+
+Package: com.chargelimiter.mod
 Version: 1.13.3
 Architecture: iphoneos-arm
 Maintainer: tune
@@ -10,7 +28,7 @@ SHA1: d54eb98b0a7c5052dedf20ca737afaa611e4d348
 SHA256: cb72f9dcb8871a07135f92ba46872bfddb3533e034e7c73f63571d1d1ed46a76
 Section: Applications
 Priority: optional
-Description: 收敛文件日志并修复配置持久化
+Description: 优化了一下界面
 Author: tune
 Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
@@ -51,6 +69,24 @@ Author: Tune
 Name: Notification Filter
 Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
+
+Package: com.tune.shihuoskipla
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Tune
+Installed-Size: 152
+Depends: firmware (>= 12.4)
+Filename: rootful/ShihuoSkipla_0.1.0_rootful_arm.deb
+Size: 6580
+MD5sum: 14301dd518655261fcc7e2680c4c615a
+SHA1: b5925986ad94e273420f2e55615be8475e02a01b
+SHA256: 85e16886d3dd01d31ce92e47d73174be6b4a9497ac65de06036235d943003dac
+Section: Tweaks
+Description: 跳过识货的开屏广告，基于8.75开发，如果不生效尝试清理一次缓存
+Author: Tune
+Name: ShihuoSkipla
+Icon: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/js.json
 
 Package: com.tune.watusi3.zh-hans
 Version: 0.0.1
@@ -124,6 +160,24 @@ Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
 
 Package: com.chargelimiter.mod
+Version: 1.13.2
+Architecture: iphoneos-arm64
+Maintainer: tune
+Depends: firmware (>= 13.0)
+Filename: rootless/ChargeLimiter_1.13.2_rootless_arm64.deb
+Size: 646944
+MD5sum: 8757474ff0be603d428d435fa9e7df0e
+SHA1: a467b1784c6c2fec366294a5f3f8e42c61e4ee93
+SHA256: 537f573559ea9cdcc0d21c45d282961bbf567a4139253011c4530c0a54fc1f54
+Section: Applications
+Priority: optional
+Description: 优化了一下界面
+Author: tune
+Name: Modified ChargeLimiter
+Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
+
+Package: com.chargelimiter.mod
 Version: 1.13.3
 Architecture: iphoneos-arm64
 Maintainer: tune
@@ -135,7 +189,7 @@ SHA1: fdeaa7e2e7c8537e16c0aa5e5990714419d19ad5
 SHA256: 327cc179162b8436a158dbbc0168b581089df90aec88e71df7c7dad6b4844b61
 Section: Applications
 Priority: optional
-Description: 收敛文件日志并修复配置持久化
+Description: 优化了一下界面
 Author: tune
 Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
@@ -212,6 +266,24 @@ Author: Tune
 Name: Notification Filter
 Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
+
+Package: com.tune.shihuoskipla
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 152
+Depends: firmware (>= 12.4)
+Filename: rootless/ShihuoSkipla_0.1.0_rootless_arm64.deb
+Size: 6652
+MD5sum: 0f23425e04b0f30202d671622cc323a4
+SHA1: 05482302be29cd61dd38765d398a8efe256a8cef
+SHA256: 7cbd750d26088232305f0f2a8f5a75f4b28a2918323e5043e0230951c74304b7
+Section: Tweaks
+Description: 跳过识货的开屏广告，基于8.75开发，如果不生效尝试清理一次缓存
+Author: Tune
+Name: ShihuoSkipla
+Icon: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/js.json
 
 Package: com.tune.tweaklang
 Version: 1.1.6
@@ -307,6 +379,24 @@ Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
 
 Package: com.chargelimiter.mod
+Version: 1.13.2
+Architecture: iphoneos-arm64e
+Maintainer: tune
+Depends: firmware (>= 13.0)
+Filename: roothide/ChargeLimiter_1.13.2_roothide_arm64e.deb
+Size: 646312
+MD5sum: 63dd4862d81d1e1de428c599c576b8ec
+SHA1: fddb3805245349fe55e9e5984ed3865648d25d9c
+SHA256: bd75b4f770c0acfc35c42958a7fad9c901d42137c0fa1affefecb8897e7866b1
+Section: Applications
+Priority: optional
+Description: 优化了一下界面
+Author: tune
+Name: Modified ChargeLimiter
+Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
+
+Package: com.chargelimiter.mod
 Version: 1.13.3
 Architecture: iphoneos-arm64e
 Maintainer: tune
@@ -318,7 +408,7 @@ SHA1: 9847082aa94881d75ac674cf4a8021f30d308091
 SHA256: 697e8de9b3897b9c489f7112979cd010182738a21d1c8e2590b53be0fead127e
 Section: Applications
 Priority: optional
-Description: 收敛文件日志并修复配置持久化
+Description: 优化了一下界面
 Author: tune
 Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
@@ -396,6 +486,24 @@ Name: Notification Filter
 Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
 
+Package: com.tune.shihuoskipla
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 152
+Depends: firmware (>= 12.4)
+Filename: roothide/ShihuoSkipla_0.1.0_roothide_arm64e.deb
+Size: 6608
+MD5sum: 05ed5d02223a598b5715fccd46a6a9cf
+SHA1: c766b4a069a181175fa52df9e1dd310496a90863
+SHA256: 74193b201b3a39a9ba913ee9acfbc2273f0f4ff654328463d4164eed521dbc80
+Section: Tweaks
+Description: 跳过识货的开屏广告，基于8.75开发，如果不生效尝试清理一次缓存
+Author: Tune
+Name: ShihuoSkipla
+Icon: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/js.json
+
 Package: com.tune.tweaklang
 Version: 1.1.6
 Architecture: iphoneos-arm64e
@@ -452,3 +560,4 @@ Author: Tune
 Name: Watusi 3 Simplified Chinese Language Pack
 Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/js.json
+
