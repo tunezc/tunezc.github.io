@@ -70,6 +70,24 @@ Name: Notification Filter
 Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
 
+Package: com.tune.sfskipsplash
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Tune
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: rootful/SFSkipSplash_0.0.1_rootful_arm.deb
+Size: 10318
+MD5sum: 66de7a54a73e49325733f26de0287b04
+SHA1: 64e68df53c78ac58080c3b7dbfd1d10b9d2df6ee
+SHA256: 86c1fe4e8b304b1cd3452de3c84ece93ac0b77bac62a646a2e1bb6da31964922
+Section: Tweaks
+Description: 跳过顺丰开屏广告，基于9.87.4开发，不生效请清理一次缓存
+Author: Tune
+Name: SFSkipSplash
+Icon: https://tunezc.github.io/sileodepiction/com.tune.sfskipsplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.sfskipsplash/js.json
+
 Package: com.tune.shihuoskipla
 Version: 0.1.0
 Architecture: iphoneos-arm
@@ -266,6 +284,24 @@ Author: Tune
 Name: Notification Filter
 Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
+
+Package: com.tune.sfskipsplash
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: rootless/SFSkipSplash_0.0.1_rootless_arm64.deb
+Size: 10406
+MD5sum: 37c13af06d9d3eb3a8a0f9d739491990
+SHA1: bfbe8e6899be6db94ce591651f0bebd4eea0cb5a
+SHA256: 197f283f82253d2d6bc553139b38bc06b3af152af8d06cc45bd20c925cd2b334
+Section: Tweaks
+Description: 跳过顺丰开屏广告，基于9.87.4开发，不生效请清理一次缓存
+Author: Tune
+Name: SFSkipSplash
+Icon: https://tunezc.github.io/sileodepiction/com.tune.sfskipsplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.sfskipsplash/js.json
 
 Package: com.tune.shihuoskipla
 Version: 0.1.0
@@ -485,6 +521,24 @@ Author: Tune
 Name: Notification Filter
 Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
+
+Package: com.tune.sfskipsplash
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: roothide/SFSkipSplash_0.0.1_roothide_arm64e.deb
+Size: 10336
+MD5sum: 9ff2b699dc94ccb0a547156f999a2184
+SHA1: 08ce0a7f5a773b09ee016c1e8789c83afbb81674
+SHA256: 56b3c0af2f689c6dba0d35acd38f0cdad5b094c4a16c18be684af3a73084d699
+Section: Tweaks
+Description: 跳过顺丰开屏广告，基于9.87.4开发，不生效请清理一次缓存
+Author: Tune
+Name: SFSkipSplash
+Icon: https://tunezc.github.io/sileodepiction/com.tune.sfskipsplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.sfskipsplash/js.json
 
 Package: com.tune.shihuoskipla
 Version: 0.1.0
