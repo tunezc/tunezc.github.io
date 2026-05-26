@@ -1,0 +1,51 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "",
+  "tintColor": "#ef4444",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "AutoKiller 用于在指定 App 进入后台后自动结束进程，当前默认倒计时为 **90 秒**。\n\n目标 App 退到后台后会开始计时；如果在 90 秒内重新回到前台，则自动取消本次计时；如果持续停留在后台超过 90 秒，则调用 `exit(0)` 直接结束进程。\n\n当前版本默认只注入 **相机** (`com.apple.camera`) 和 **LocalSend** (`org.localsend.localsendApp`)。\n\n插件是抄的 https://t.me/DevelopLabRelease/36"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/tunecc/AutoKiller",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "为相机和 LocalSend 提供后台 90 秒自动结束能力。"
+        }
+      ]
+    }
+  ]
+}

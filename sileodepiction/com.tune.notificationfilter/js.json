@@ -56,6 +56,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.2.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复已过滤通知日志在旧通知被重复分发时可能产生大量重复记录的问题。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.2.0",
           "useBoldText": true,
           "useBottomMargin": false
