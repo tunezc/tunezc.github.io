@@ -34,6 +34,21 @@ Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
 
+Package: com.tune.autokiller
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Tune
+Installed-Size: 168
+Filename: rootful/AutoKiller_1.0.0_rootful_arm.deb
+Size: 4284
+MD5sum: e0506e70bf94d7c57adc753ce34e0eec
+SHA1: 54bdc50543ae55d2ec98ff13d30aaf7bc9785742
+SHA256: 93f4865394e37f79b07a0b6c75b642c83a8c4c557290f8d844e0450292ea8f3e
+Section: Tweaks
+Description: 软件进入后台 90s 自动 kill，自用的，只注入了 相机 和 Localsend
+Author: Tune
+Name: AutoKiller
+
 Package: com.tune.notificationfilter
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -49,6 +64,7 @@ Section: Tweaks
 Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
 Name: Notification Filter
+Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
 
 Package: com.tune.notificationfilter
@@ -66,6 +82,7 @@ Section: Tweaks
 Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
 Name: Notification Filter
+Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
 
 Package: com.tune.sfskipsplash
@@ -211,6 +228,21 @@ Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
 
+Package: com.tune.autokiller
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 168
+Filename: rootless/AutoKiller_1.0.0_rootless_arm64.deb
+Size: 4364
+MD5sum: 841560b54fc67b8529fb3a08d3338770
+SHA1: f0846f09f5c42bca98f132adc6826417d86ec72f
+SHA256: 88fa868ca2a1bfe45f8e55225bcb8cf8f53fa056b6aa33377fc59f40a0b004ab
+Section: Tweaks
+Description: 软件进入后台 90s 自动 kill，自用的，只注入了 相机 和 Localsend
+Author: Tune
+Name: AutoKiller
+
 Package: com.tune.chaoxinglaunchadblock
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -262,6 +294,7 @@ Section: Tweaks
 Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
 Name: Notification Filter
+Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
 
 Package: com.tune.notificationfilter
@@ -279,6 +312,7 @@ Section: Tweaks
 Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
 Name: Notification Filter
+Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
 
 Package: com.tune.sfskipsplash
@@ -446,6 +480,21 @@ Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
 
+Package: com.tune.autokiller
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 168
+Filename: roothide/AutoKiller_1.0.0_roothide_arm64e.deb
+Size: 4296
+MD5sum: f862c22569c08bbec516424350371d88
+SHA1: 929f88e98eba65b352e95cd1a4d1ee9c5350d388
+SHA256: 0234a3eb64109d4bc41b8b1c97b747a03a86471a4ef1f15e8add997c392b26aa
+Section: Tweaks
+Description: 软件进入后台 90s 自动 kill，自用的，只注入了 相机 和 Localsend
+Author: Tune
+Name: AutoKiller
+
 Package: com.tune.chaoxinglaunchadblock
 Version: 0.0.2
 Architecture: iphoneos-arm64e
@@ -497,6 +546,7 @@ Section: Tweaks
 Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
 Name: Notification Filter
+Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
 
 Package: com.tune.notificationfilter
@@ -514,6 +564,7 @@ Section: Tweaks
 Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
 Name: Notification Filter
+Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
 
 Package: com.tune.sfskipsplash
