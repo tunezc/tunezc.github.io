@@ -245,6 +245,24 @@ Name: WatchFix
 Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
 
+Package: cn.fkj233.watchfix.mod
+Version: 2.0.5
+Architecture: iphoneos-arm64
+Maintainer: 577FKJ
+Installed-Size: 5156
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: rootless/cn.fkj233.watchfix.mod_2.0.5_iphoneos-arm64.deb
+Size: 675278
+MD5sum: da4144483864978a7146d24f6bceaa04
+SHA1: 3938e9b14484295fd93c50215daa289d8a69d820
+SHA256: 6d939a854bf535e11c2c70c9ff2cf0ef2acd563b9307f59bb7b1f8a51e8999e2
+Section: Tweaks
+Description: Fix Apple watch connection issues
+Author: 577FKJ
+Name: WatchFix
+Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
+
 Package: com.chargelimiter.mod
 Version: 1.13.2
 Architecture: iphoneos-arm64
@@ -543,6 +561,24 @@ Size: 679076
 MD5sum: 196e2503d9714e581d54c39812e9488b
 SHA1: 73d025eee6663e16a9b174eb53c8203f24823a65
 SHA256: 86c8d0a4b30afabe7b38682418fce09c41b29428b5454a27f572bd2fa631e33e
+Section: Tweaks
+Description: Fix Apple watch connection issues
+Author: 577FKJ
+Name: WatchFix
+Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
+
+Package: cn.fkj233.watchfix.mod
+Version: 2.0.5
+Architecture: iphoneos-arm64e
+Maintainer: 577FKJ
+Installed-Size: 5180
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: roothide/cn.fkj233.watchfix.mod_2.0.5_iphoneos-arm64e.deb
+Size: 679784
+MD5sum: 6a430d4b25452c1b5620bbe96992a8dd
+SHA1: 75b7d26be15dab172aed0693cef1677ad3f2c2ef
+SHA256: 614ebe9a1ed762cf917167cb18ca71c67c82b2d9c7a36dae008b81722e83947e
 Section: Tweaks
 Description: Fix Apple watch connection issues
 Author: 577FKJ
