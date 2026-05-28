@@ -50,6 +50,24 @@ Author: Tune
 Name: AutoKiller
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.autokiller/js.json
 
+Package: com.tune.loonpolicykeep
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Tune
+Installed-Size: 72
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: rootful/LoonPolicyKeep_0.1.0_rootful_arm.deb
+Size: 4784
+MD5sum: 0ae9b54f39479070d8fd1c24b11edf82
+SHA1: 8885b2668b75ebcce80a09b85f4b6347b3c23b98
+SHA256: 48dc37dc3fe6140507acf882386d59d8e278dc77e231748c981066c35e3526fd
+Section: Tweaks
+Description: Keep Loon policy groups expanded after foreground refresh.
+Author: Tune
+Name: Loon Policy Keep
+Icon: https://tunezc.github.io/sileodepiction/com.tune.loonpolicykeep/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.loonpolicykeep/js.json
+
 Package: com.tune.notificationfilter
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -314,6 +332,24 @@ Author: Tune
 Name: H3kbHook
 Icon: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/js.json
+
+Package: com.tune.loonpolicykeep
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 72
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: rootless/LoonPolicyKeep_0.1.0_rootless_arm64.deb
+Size: 4864
+MD5sum: e4e32d56dbdc428e37fda0ce77562c5d
+SHA1: 41a8f965b83fd4991e4ae7cbbe289ec52cfa6962
+SHA256: a6f6b89110761fe659ed1a0c91718f1366c630279b7a7d7ffc6ea8eb8c494c0f
+Section: Tweaks
+Description: Keep Loon policy groups expanded after foreground refresh.
+Author: Tune
+Name: Loon Policy Keep
+Icon: https://tunezc.github.io/sileodepiction/com.tune.loonpolicykeep/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.loonpolicykeep/js.json
 
 Package: com.tune.notificationfilter
 Version: 1.1.0
@@ -601,6 +637,24 @@ Author: Tune
 Name: H3kbHook
 Icon: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/js.json
+
+Package: com.tune.loonpolicykeep
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 72
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: roothide/LoonPolicyKeep_0.1.0_roothide_arm64e.deb
+Size: 4804
+MD5sum: 2292226ee0e72be573d1e2482dd2d2f5
+SHA1: 109a85b3ac8691f61829d1bb51fdda67c3305d14
+SHA256: 597caf2fbfc6ec4ed6440cda950c954fd6f0505aac4eda9d1ee07b17737bb3c8
+Section: Tweaks
+Description: Keep Loon policy groups expanded after foreground refresh.
+Author: Tune
+Name: Loon Policy Keep
+Icon: https://tunezc.github.io/sileodepiction/com.tune.loonpolicykeep/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.loonpolicykeep/js.json
 
 Package: com.tune.notificationfilter
 Version: 1.1.0
