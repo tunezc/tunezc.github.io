@@ -1,0 +1,51 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "",
+  "tintColor": "#2f7df6",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "去除到梦空间 4.9.2 开屏广告。安装后请彻底结束到梦空间并重新打开；若后续版本调整启动页逻辑，可能需要重新适配。"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/tunecc/DMKJNoSplash",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.0.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "去除到梦空间 4.9.2 开屏广告。"
+        }
+      ]
+    }
+  ]
+}

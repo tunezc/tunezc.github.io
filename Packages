@@ -50,6 +50,24 @@ Author: Tune
 Name: AutoKiller
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.autokiller/js.json
 
+Package: com.tune.dmkjnosplash
+Version: 0.0.5
+Architecture: iphoneos-arm
+Maintainer: Tune
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: rootful/DMKJNoSplash_0.0.5_rootful_arm.deb
+Size: 4356
+MD5sum: 046860cf066147442eca43534c67261d
+SHA1: 9f4857fe1859da29b1de9eaf7611c3cb63238f9a
+SHA256: 1993d03ca7b5d9441b61c691f7e4febad1343d4b114c838d18a55e83d0d6f92a
+Section: Tweaks
+Description: 去除到梦空间 4.9.2 开屏广告
+Author: Tune
+Name: DMKJNoSplash
+Icon: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/js.json
+
 Package: com.tune.loonpolicykeep
 Version: 0.1.0
 Architecture: iphoneos-arm
@@ -332,6 +350,24 @@ Author: tune
 Name: ChaoxingLaunchAdBlock
 Icon: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/js.json
+
+Package: com.tune.dmkjnosplash
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: rootless/DMKJNoSplash_0.0.5_rootless_arm64.deb
+Size: 4420
+MD5sum: e113c0cc4c0dafe20c38a75cb655c478
+SHA1: ebc637e550cd54cfb42f868f26a00d73630d3552
+SHA256: 8fec1c9de3b6a1275ed48cf1ef4f30b7c4a40740ff4eb9885d56037721216c5f
+Section: Tweaks
+Description: 去除到梦空间 4.9.2 开屏广告
+Author: Tune
+Name: DMKJNoSplash
+Icon: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/js.json
 
 Package: com.tune.h3kbhook
 Version: 1.2.0
@@ -656,6 +692,24 @@ Name: ChaoxingLaunchAdBlock
 Icon: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/js.json
 
+Package: com.tune.dmkjnosplash
+Version: 0.0.5
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: roothide/DMKJNoSplash_0.0.5_roothide_arm64e.deb
+Size: 3448
+MD5sum: 655ce2aac92df9ade0441731a6f19fbf
+SHA1: 25d21891f7ab2a5e816f151b0e93c621dcf41f27
+SHA256: 8bc51ba81a9f96a7ea722ce45cfb27803234a0b7396426d2e87137cf1c6e6c3b
+Section: Tweaks
+Description: 去除到梦空间 4.9.2 开屏广告
+Author: Tune
+Name: DMKJNoSplash
+Icon: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/js.json
+
 Package: com.tune.h3kbhook
 Version: 1.2.0
 Architecture: iphoneos-arm64e
@@ -854,4 +908,3 @@ Author: Tune
 Name: Watusi 3 Simplified Chinese Language Pack
 Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/js.json
-
