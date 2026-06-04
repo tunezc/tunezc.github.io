@@ -60,6 +60,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.13.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复 JSON 响应序列化异常可能导致服务崩溃的问题。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.13.3",
           "useBoldText": true,
           "useBottomMargin": false
