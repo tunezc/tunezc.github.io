@@ -56,6 +56,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.2.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "优化浅色模式下的规则显示。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.2.1",
           "useBoldText": true,
           "useBottomMargin": false
