@@ -60,6 +60,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.13.6",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复配置保存。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.13.5",
           "useBoldText": true,
           "useBottomMargin": false
