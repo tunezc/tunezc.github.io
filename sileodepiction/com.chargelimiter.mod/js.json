@@ -60,6 +60,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.13.7",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复 roothide 重启用户空间或重新越狱后，“软件设置”里的语言、滑动震动、停充预设、深色模式被重置的问题。这些选项原先写入 NSUserDefaults，在 roothide 下无法随 jbroot 持久化，现已统一改用与配置文件相同的持久化存储。\n\n修复深色模式只在手动切换时生效、重启后不会自动应用的问题：现在启动时会读取已保存的外观设置并应用。\n\n旧版本写入 NSUserDefaults 的上述设置，会在首次启动时一次性迁移到新的持久化存储，升级后无需重新设置。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.13.6",
           "useBoldText": true,
           "useBottomMargin": false
