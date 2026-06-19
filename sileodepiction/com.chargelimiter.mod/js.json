@@ -60,6 +60,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.13.8",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "配置文件改存到应用数据容器，不再放在越狱目录（jbroot Preferences）。应用数据容器是 iOS 系统路径，不依赖越狱路径，roothide 重新越狱（越狱路径变化）或路径偶发漂移时配置都不会丢失；roothide、rootless、TrollStore 统一此存储位置。\n\n修复清掉软件后台再打开时配置文件被删除或清空的问题：此前路径解析偶发漂移，叠加自动迁移/清理把当前配置误判为旧配置删除，守护进程重载读不到配置后还会用空副本覆盖盘。现在配置改存应用数据容器（路径稳定），自动迁移与清理不再删除配置，读不到时保留内存副本不再清空。\n\n修复因路径解析漂移偶尔读不到配置、软件设置变回默认值的问题；路径解析改用 libroot 标准运行时 API，替代手动拼接越狱路径。\n\n旧版本存放在越狱目录的配置，首次启动会自动迁移到应用数据容器。数据库（历史统计）与日志仍保留在越狱目录，重新越狱后可能需要重新积累。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.13.7",
           "useBoldText": true,
           "useBottomMargin": false
