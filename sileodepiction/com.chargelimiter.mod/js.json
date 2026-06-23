@@ -60,6 +60,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.13.9",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复 v1.13.8 引入的配置持久化问题，彻底解决杀后台重开后设置丢失的问题。\n\n**主要修复：**\n\n修复配置持久化失败问题：v1.13.8 将配置文件移到应用数据容器后，在 roothide 环境下因路径解析错误导致配置文件被写入到只读的 Bundle 目录，无法保存。现在统一将所有越狱环境的配置、数据库、日志放在守护进程可访问的共享目录 `/var/mobile/ChargeLimiter/`，彻底解决写入权限问题。\n\n修复配置迁移逻辑：从 NSUserDefaults 迁移配置后立即写盘，确保数据持久化；修复杀后台重开后停充预设、滑动震动等设置丢失的问题。\n\n**路径策略调整：**\n\n越狱环境（rootless / rootful / roothide）：配置文件、数据库、日志统一存放在 `/var/mobile/ChargeLimiter/`（jbroot 解析后的共享目录），确保应用和守护进程都能访问。\n\nTrollStore：继续使用应用数据容器 `<容器>/ChargeLimiter/`，不受越狱路径影响。\n\n自动从旧路径迁移数据，并自动清理迁移后的空目录，保持系统整洁。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.13.8",
           "useBoldText": true,
           "useBottomMargin": false
