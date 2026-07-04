@@ -56,6 +56,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.3.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复深色模式下首次进入“应用规则”选择页时背景偶发显示为灰色的问题，统一首次进入、再次进入和加载中的页面底色。\n\n修复“应用规则”选择页在空列表和搜索无结果时只显示空白表格的问题，新增明确的空状态提示文案。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.3.1",
           "useBoldText": true,
           "useBottomMargin": false
