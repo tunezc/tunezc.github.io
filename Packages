@@ -173,6 +173,8 @@ Section: Tweaks
 Description: 跳过 携程旅行 开屏广告，基于8.79.0 开发
 Author: Tune
 Name: 携程旅行去开屏广告
+Icon: https://tunezc.github.io/sileodepiction/com.tune.ctrip-nosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.ctrip-nosplash/js.json
 
 Package: com.tune.dmkjnosplash
 Version: 0.0.5
@@ -420,6 +422,8 @@ Section: Tweaks
 Description: 智行火车票去开屏广告
 Author: Tune
 Name: 智行火车票去开屏广告
+Icon: https://tunezc.github.io/sileodepiction/com.tune.zhixing-nosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.zhixing-nosplash/js.json
 
 Package: cn.fkj233.watchfix.mod
 Version: 2.0.2
@@ -686,6 +690,8 @@ Section: Tweaks
 Description: 跳过 携程旅行 开屏广告，基于8.79.0 开发
 Author: Tune
 Name: 携程旅行去开屏广告
+Icon: https://tunezc.github.io/sileodepiction/com.tune.ctrip-nosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.ctrip-nosplash/js.json
 
 Package: com.tune.dmkjnosplash
 Version: 0.0.5
@@ -973,6 +979,8 @@ Section: Tweaks
 Description: 智行火车票去开屏广告
 Author: Tune
 Name: 智行火车票去开屏广告
+Icon: https://tunezc.github.io/sileodepiction/com.tune.zhixing-nosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.zhixing-nosplash/js.json
 
 Package: cn.fkj233.watchfix.mod
 Version: 2.0.2
@@ -1239,6 +1247,8 @@ Section: Tweaks
 Description: 跳过 携程旅行 开屏广告，基于8.79.0 开发
 Author: Tune
 Name: 携程旅行去开屏广告
+Icon: https://tunezc.github.io/sileodepiction/com.tune.ctrip-nosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.ctrip-nosplash/js.json
 
 Package: com.tune.dmkjnosplash
 Version: 0.0.5
@@ -1544,4 +1554,6 @@ Section: Tweaks
 Description: 智行火车票去开屏广告
 Author: Tune
 Name: 智行火车票去开屏广告
+Icon: https://tunezc.github.io/sileodepiction/com.tune.zhixing-nosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.zhixing-nosplash/js.json
 
