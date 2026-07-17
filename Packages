@@ -158,6 +158,22 @@ Author: Tune
 Name: AutoKiller
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.autokiller/js.json
 
+Package: com.tune.ctrip-nosplash
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Tune
+Installed-Size: 168
+Depends: firmware (>= 13.0), ellekit
+Filename: rootful/CtripNoSplash_0.1.0_rootful_arm.deb
+Size: 4372
+MD5sum: 394722011559961868602317c0195d31
+SHA1: b80b3cd50d22a8ad88f0bc29812b4b9ed657ba12
+SHA256: bf65f083fd61021caeb42305996400b0d32fe9aa2b64b394f519c7467ccefa53
+Section: Tweaks
+Description: 跳过 携程旅行 开屏广告，基于8.79.0 开发
+Author: Tune
+Name: 携程旅行去开屏广告
+
 Package: com.tune.dmkjnosplash
 Version: 0.0.5
 Architecture: iphoneos-arm
@@ -388,6 +404,22 @@ Author: Tune
 Name: Watusi 3 Simplified Chinese Language Pack
 Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/js.json
+
+Package: com.tune.zhixing-nosplash
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Tune
+Installed-Size: 168
+Depends: firmware (>= 15.0)
+Filename: rootful/ZhixingNoSplash_1.0.3_rootful_arm.deb
+Size: 3932
+MD5sum: ace70569125edc127c3bce6e1b45c3c8
+SHA1: 9ba26d75f3d497b92f8eec51a143a03bd123fb97
+SHA256: 91472ed3da1093514a4a4700912f2d3909edf80518c8785914ab8617f98851f0
+Section: Tweaks
+Description: 智行火车票去开屏广告
+Author: Tune
+Name: 智行火车票去开屏广告
 
 Package: cn.fkj233.watchfix.mod
 Version: 2.0.2
@@ -638,6 +670,22 @@ Author: tune
 Name: ChaoxingLaunchAdBlock
 Icon: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/js.json
+
+Package: com.tune.ctrip-nosplash
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 168
+Depends: firmware (>= 13.0), ellekit
+Filename: rootless/CtripNoSplash_0.1.0_rootless_arm64.deb
+Size: 4444
+MD5sum: f603385a3ca93e2dbbd8764a8a2bf946
+SHA1: 9fff3cd9985b11d07f8e4e4c2aa8baefc260182c
+SHA256: 572f56cb0c90bcc7455f2e0d3dd7865b744746d13a3c492111cb18c7175ac446
+Section: Tweaks
+Description: 跳过 携程旅行 开屏广告，基于8.79.0 开发
+Author: Tune
+Name: 携程旅行去开屏广告
 
 Package: com.tune.dmkjnosplash
 Version: 0.0.5
@@ -910,6 +958,22 @@ Name: Watusi 3 Simplified Chinese Language Pack
 Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/js.json
 
+Package: com.tune.zhixing-nosplash
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 168
+Depends: firmware (>= 15.0)
+Filename: rootless/ZhixingNoSplash_1.0.3_rootless_arm64.deb
+Size: 4012
+MD5sum: c0b8d404e31d822b66200e2a2c90496c
+SHA1: e1204184a0d282cf7787e6b6de4f42a4796f297c
+SHA256: e381f7ec46ee11cb0062d490641e408a2fcfa6a6bd749642f33c501848cc8ea7
+Section: Tweaks
+Description: 智行火车票去开屏广告
+Author: Tune
+Name: 智行火车票去开屏广告
+
 Package: cn.fkj233.watchfix.mod
 Version: 2.0.2
 Architecture: iphoneos-arm64e
@@ -1159,6 +1223,22 @@ Author: tune
 Name: ChaoxingLaunchAdBlock
 Icon: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/js.json
+
+Package: com.tune.ctrip-nosplash
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 168
+Depends: firmware (>= 13.0), ellekit
+Filename: roothide/CtripNoSplash_0.1.0_roothide_arm64e.deb
+Size: 4388
+MD5sum: a71a3c14d8b28c876c903faf5fe44c12
+SHA1: ccba7447187bebcd4e9fd5b4f4c584e9da965e3b
+SHA256: 3d7786d7a9a7ac620c8ebeee9a77e25f80dd4d1db1ca7d900db7fc97d4d6abbd
+Section: Tweaks
+Description: 跳过 携程旅行 开屏广告，基于8.79.0 开发
+Author: Tune
+Name: 携程旅行去开屏广告
 
 Package: com.tune.dmkjnosplash
 Version: 0.0.5
@@ -1448,4 +1528,20 @@ Author: Tune
 Name: Watusi 3 Simplified Chinese Language Pack
 Icon: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.watusi3.zh-hans/js.json
+
+Package: com.tune.zhixing-nosplash
+Version: 1.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 168
+Depends: firmware (>= 15.0)
+Filename: roothide/ZhixingNoSplash_1.0.3_roothide_arm64e.deb
+Size: 3952
+MD5sum: 39309d359490a97068b1e10ff9508e5b
+SHA1: e156e04371b54d9f174d91886a56006d2c23d48f
+SHA256: 84ba00dd1085a13154292abeb848ca18f47d04112b1c6ba2dcba0065cb1300a6
+Section: Tweaks
+Description: 智行火车票去开屏广告
+Author: Tune
+Name: 智行火车票去开屏广告
 
