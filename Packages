@@ -390,6 +390,24 @@ Name: ShihuoSkipla
 Icon: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/js.json
 
+Package: com.tune.trollfools-skip
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Tune
+Installed-Size: 168
+Depends: firmware (>= 14.0)
+Filename: rootful/TrollFoolsSkip_1.0.0_rootful_arm.deb
+Size: 3072
+MD5sum: e4bda2eb64be91f62698674b8365decf
+SHA1: 22ca4d0a8ff050179bb3b10ae9a3f285bb713c5f
+SHA256: 64b7e7ff1d9a600a58ea8c3d8237458fa514e5322dfb228ff975ccb2edfcf217
+Section: Tweaks
+Description: 关闭 TrollFools 免责声明与导入 deb 提示
+Author: Tune
+Name: TrollFoolsSkip
+Icon: https://tunezc.github.io/sileodepiction/com.tune.trollfools-skip/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.trollfools-skip/js.json
+
 Package: com.tune.watusi3.zh-hans
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -924,6 +942,24 @@ Author: Tune
 Name: ShihuoSkipla
 Icon: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/js.json
+
+Package: com.tune.trollfools-skip
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 168
+Depends: firmware (>= 14.0)
+Filename: rootless/TrollFoolsSkip_1.0.0_rootless_arm64.deb
+Size: 3148
+MD5sum: 3781a245e90124d1da503fce7d32eec0
+SHA1: c7cab6b1804201a9edfb81725af3dd2a785e98b6
+SHA256: ccc026c6941e1be62480b0d5c491a23928709c0eaedf3622d5fb67d0caa528fb
+Section: Tweaks
+Description: 关闭 TrollFools 免责声明与导入 deb 提示
+Author: Tune
+Name: TrollFoolsSkip
+Icon: https://tunezc.github.io/sileodepiction/com.tune.trollfools-skip/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.trollfools-skip/js.json
 
 Package: com.tune.tweaklang
 Version: 1.1.6
@@ -1481,6 +1517,24 @@ Author: Tune
 Name: ShihuoSkipla
 Icon: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/js.json
+
+Package: com.tune.trollfools-skip
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 168
+Depends: firmware (>= 14.0)
+Filename: roothide/TrollFoolsSkip_1.0.0_roothide_arm64e.deb
+Size: 3092
+MD5sum: 9afca54cc9077003512ccc8ab64c6515
+SHA1: 13ae1f4fad2f50cdb2e316a93ab8fd113251b396
+SHA256: 3f7a48291f9a0c3f2b0f7da669bf5f83dbaf0957c151a98cd97bfab808f02a94
+Section: Tweaks
+Description: 关闭 TrollFools 免责声明与导入 deb 提示
+Author: Tune
+Name: TrollFoolsSkip
+Icon: https://tunezc.github.io/sileodepiction/com.tune.trollfools-skip/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.trollfools-skip/js.json
 
 Package: com.tune.tweaklang
 Version: 1.1.6

@@ -1,0 +1,38 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "",
+  "tintColor": "#2f6fed",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "关闭 TrollFools 的免责声明弹窗，以及导入 deb 时的提示，让日常使用更少打断。\n\n安装后重新打开 TrollFools 即可生效；若目标应用更新后弹窗逻辑变化，可能需要重新适配。"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "初始发布：关闭 TrollFools 免责声明与导入 deb 提示。"
+        }
+      ]
+    }
+  ]
+}
