@@ -194,6 +194,24 @@ Name: DMKJNoSplash
 Icon: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/js.json
 
+Package: com.tune.jdnosplash
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Tune
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: rootful/JDNoSplash_0.1.0_rootful_arm.deb
+Size: 3116
+MD5sum: 20d270542fd18a9208d2ac6af59a277c
+SHA1: 4f1e64dad4d6416a447e0d78171ff716448225c0
+SHA256: 15eb44fd3c286afee6893a990d39fb834a6517d35defdf18e398548c5ef611a1
+Section: Tweaks
+Description: 去京东开屏广告
+Author: Tune
+Name: 京东去开屏广告
+Icon: https://tunezc.github.io/sileodepiction/com.tune.jdnosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.jdnosplash/js.json
+
 Package: com.tune.loonpolicykeep
 Version: 0.1.0
 Architecture: iphoneos-arm
@@ -746,6 +764,24 @@ Author: Tune
 Name: H3kbHook
 Icon: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/js.json
+
+Package: com.tune.jdnosplash
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: rootless/JDNoSplash_0.1.0_rootless_arm64.deb
+Size: 3196
+MD5sum: 3f0b5da240a19868c88ef3d414cf7c14
+SHA1: 5dc68bb225d1ba96263d4f4e7d2d145c545c0223
+SHA256: 1e8d2625ff0e114338aa9f9007c5b184038206a2ab0e836434c8a931e55532b6
+Section: Tweaks
+Description: 去京东开屏广告
+Author: Tune
+Name: 京东去开屏广告
+Icon: https://tunezc.github.io/sileodepiction/com.tune.jdnosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.jdnosplash/js.json
 
 Package: com.tune.loonpolicykeep
 Version: 0.1.0
@@ -1321,6 +1357,24 @@ Author: Tune
 Name: H3kbHook
 Icon: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/js.json
+
+Package: com.tune.jdnosplash
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: roothide/JDNoSplash_0.1.0_roothide_arm64e.deb
+Size: 3132
+MD5sum: 36b5f264c1c03d3f48a5bbb3abf75055
+SHA1: 3492b73ddce572b2079610fe01f960fb67fceb49
+SHA256: d78c81123714c8f51957b87844472a4c1461d7961628cf9e5871cb77aa719817
+Section: Tweaks
+Description: 去京东开屏广告
+Author: Tune
+Name: 京东去开屏广告
+Icon: https://tunezc.github.io/sileodepiction/com.tune.jdnosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.jdnosplash/js.json
 
 Package: com.tune.loonpolicykeep
 Version: 0.1.0
