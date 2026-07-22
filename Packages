@@ -142,6 +142,24 @@ Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
 
+Package: com.local.12306nosplash
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: local
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit
+Filename: rootful/12306-NoSplash_1.0.0_rootful_arm.deb
+Size: 4896
+MD5sum: e0704b01df507f529210cf0818b01142
+SHA1: 5a6224eb45a623dff38928fc713efd8a3c0954d4
+SHA256: 89214df95a4101bcd44690e4aa53de4e052e2acc1dc50d737f5687f5a7d34d54
+Section: Tweaks
+Description: Skip 12306 fullscreen splash ads (5.9.6). Cold start + resume. Formerly Skip12306Splash.
+Author: local
+Name: 12306-NoSplash
+Icon: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/js.json
+
 Package: com.tune.autokiller
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -694,6 +712,24 @@ Author: tune
 Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
+
+Package: com.local.12306nosplash
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: local
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit
+Filename: rootless/12306-NoSplash_1.0.0_rootless_arm64.deb
+Size: 4972
+MD5sum: 1e603400bc470fa6f4f09c447047978d
+SHA1: 488ebdd5d1bd4bfbdf901736969225bd64e63933
+SHA256: 7c8552704945b54ab7984210b7fc4ccd48a1c0620b55870ad9dd581bc73ffb45
+Section: Tweaks
+Description: Skip 12306 fullscreen splash ads (5.9.6). Cold start + resume. Formerly Skip12306Splash.
+Author: local
+Name: 12306-NoSplash
+Icon: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/js.json
 
 Package: com.tune.autokiller
 Version: 1.0.0
@@ -1305,6 +1341,24 @@ Author: tune
 Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
+
+Package: com.local.12306nosplash
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: local
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit
+Filename: roothide/12306-NoSplash_1.0.0_roothide_arm64e.deb
+Size: 4912
+MD5sum: de60b07372ed741e06a66f5c8e7a81dd
+SHA1: b273784ce4be06a495ef5a8474517518ffe1ab4d
+SHA256: 4cd53a50fe0fab2d705ac343eea3704a2b84fa7ce1d1b85179bacb9bd3fc2dcf
+Section: Tweaks
+Description: Skip 12306 fullscreen splash ads (5.9.6). Cold start + resume. Formerly Skip12306Splash.
+Author: local
+Name: 12306-NoSplash
+Icon: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/js.json
 
 Package: com.tune.autokiller
 Version: 1.0.0
