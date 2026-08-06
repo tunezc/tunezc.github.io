@@ -60,6 +60,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.14.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "主要修复 roothide（iOS 17）上的两类问题：停充不生效，以及杀后台重开后 App 设置丢失。\n\n**修复：** roothide 下杀后台重开后语言被重置为“跟随系统”；iOS 17 停充后界面仍显示“正在充电”；iOS 17 停充写入极性错误导致停充不生效。\n\n**新增：** 诊断页新增「停充控制探针」，一键测试 iOS 17 上多种停充写入方式；新增 iOS 17 覆盖充电控制；App 设置改用独立存储，写入失败会弹“保存失败”提示。\n\n**建议：** roothide 用户升级后重点验证杀后台重开后语言、深色模式、滑动震动、停充预设是否保留，以及诊断里的停充探针是否工作正常。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.13.9",
           "useBoldText": true,
           "useBottomMargin": false
