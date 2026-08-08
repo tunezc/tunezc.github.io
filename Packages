@@ -143,15 +143,15 @@ Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
 
 Package: com.chargelimiter.mod
-Version: 1.14.0
+Version: 1.14.1
 Architecture: iphoneos-arm
 Maintainer: tune
 Depends: firmware (>= 13.0)
-Filename: rootful/ChargeLimiter_1.14.0_rootful_arm.deb
-Size: 672008
-MD5sum: 024afd433878b7b2d33777f270ee51e8
-SHA1: a9ba626bdb986080f1367bbe204c88878d300bf5
-SHA256: 5cdb09d085d4789ef920e422e14dce2488819d9810ce64b3ef5af7aa886867ad
+Filename: rootful/ChargeLimiter_1.14.1_rootful_arm.deb
+Size: 682036
+MD5sum: 2b70f2ec19ad1384d311d4b0371f7b0f
+SHA1: 4e92a954f9e59dd6e1ad3689c2610611dd0eee43
+SHA256: a041c2faab090dc4d8be9cb4326ae7652bbbfe2ae04281e26028c02544adf497
 Section: Applications
 Priority: optional
 Description: 优化了一下界面
@@ -732,15 +732,15 @@ Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
 
 Package: com.chargelimiter.mod
-Version: 1.14.0
+Version: 1.14.1
 Architecture: iphoneos-arm64
 Maintainer: tune
 Depends: firmware (>= 13.0)
-Filename: rootless/ChargeLimiter_1.14.0_rootless_arm64.deb
-Size: 672344
-MD5sum: e77bb9b256cbfc3bda99e3d63c2a0f67
-SHA1: d763bf0e1318eac96ec0ba893329d2bab7f80b4d
-SHA256: 66d262607469245f96aa914b759414549acbeddffff151be217454dec553d779
+Filename: rootless/ChargeLimiter_1.14.1_rootless_arm64.deb
+Size: 682460
+MD5sum: 5d23ac96b9412bb5440ab5fe115efead
+SHA1: 180db99d807a864ef2a912ba2255e80be82ff7d7
+SHA256: 5721c27db7dcf1a0afc98730c1e60ee9a60d74128ad3c50423ff125ebba629d3
 Section: Applications
 Priority: optional
 Description: 优化了一下界面
@@ -1379,15 +1379,15 @@ Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
 
 Package: com.chargelimiter.mod
-Version: 1.14.0
+Version: 1.14.1
 Architecture: iphoneos-arm64e
 Maintainer: tune
 Depends: firmware (>= 13.0)
-Filename: roothide/ChargeLimiter_1.14.0_roothide_arm64e.deb
-Size: 672060
-MD5sum: bb741167d42dd2ba9ac169d250f582c3
-SHA1: d00046676166d246e2367b50c5163e87739dce6a
-SHA256: 57def2d947355914abb9650960b51472f475d21659d0578286e2e81e1c0d65dd
+Filename: roothide/ChargeLimiter_1.14.1_roothide_arm64e.deb
+Size: 682352
+MD5sum: 4deaae1fa2fa10e3e47b384161170648
+SHA1: 926a1360252fcc0fc1dbcc39c76763e44e9d4324
+SHA256: 818c18a3dc50cd947db93b195f791fda4c53ab7118b2e95c7b9ee8cd65704c82
 Section: Applications
 Priority: optional
 Description: 优化了一下界面
