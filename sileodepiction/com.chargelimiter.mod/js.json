@@ -60,6 +60,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.15.0",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "支持 relaxin（原生 roothide）越狱，新增日志级别设置。\n\n**新增：**\n- 支持 relaxin 越狱\n- 日志级别设置：可选“标准”或“仅错误”，减少日志记录量\n- “策略诊断”“日志级别”移到“软件设置”，更好找\n\n**修复：**\n- 切换语言后，主页的“停充预设”“设为当前”按钮消失\n- relaxin roothide 下安装后守护进程离线、保存后配置丢失\n- roothide 下日志偶尔不记录"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.14.1",
           "useBoldText": true,
           "useBottomMargin": false
