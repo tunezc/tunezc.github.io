@@ -60,6 +60,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.15.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复限流在 iOS 17 下不生效的问题，清理了大量无用代码。\n\n**修复：**\n- 限流（限流充电电流）在 iOS 17 下不生效，部分充电器开了限流但没反应\n\n**清理：**\n- 删除了大量不再使用的代码，安装包更小了一些，功能不受影响"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.15.0",
           "useBoldText": true,
           "useBottomMargin": false
