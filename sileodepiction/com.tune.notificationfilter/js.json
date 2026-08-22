@@ -56,6 +56,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.3.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "新增「记录拦截日志」开关，可一键暂停被拦截通知的日志记录。提供全局和单应用两级控制：全局关闭后停止记录所有应用的拦截日志，单应用关闭后只停止该应用的记录。开关只影响之后写入的日志，不会清空已有历史，也不影响拦截本身。\n\n修复部分环境下因打包文件权限异常，导致其他插件读取时设置页崩溃的问题，并补充缺失的英文文案。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.3.3",
           "useBoldText": true,
           "useBottomMargin": false
