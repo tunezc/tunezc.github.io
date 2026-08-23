@@ -31,13 +31,23 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "0.0.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复部分旧版系统上「直接删除」失效的问题，新版与旧版系统现在均可正常使用。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "0.0.3",
           "useBoldText": true,
           "useBottomMargin": false
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "适配新版 iOS 照片框架：删除确认类名由 PUDeletePhotosActionController 更新为 PXPhotoKitDeletePhotosActionController，修复在新系统上「直接删除」不再生效的问题。"
+          "markdown": "适配新版 iOS，修复在新系统上「直接删除」可能失效的问题。"
         },
         {
           "class": "DepictionSubheaderView",
