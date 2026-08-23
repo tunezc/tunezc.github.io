@@ -515,6 +515,24 @@ Section: Tweaks
 Description: 照片直接删除和无限放大，抄的蜗牛的PhotoSkipDelAndInfiniteZoom
 Author: tune
 Name: PhotoZoomSkip
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.photozoomskip/js.json
+
+Package: com.tune.photozoomskip
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: tune
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: rootful/PhotoZoomSkip_0.0.3_rootful_arm.deb
+Size: 3044
+MD5sum: 0820b11ba983c76d3bd8ebeb80e4575e
+SHA1: de7e15c8cbd0fe2a2aa14bf9a8e6158276e4bad1
+SHA256: 13fd7b69692ee238706b1000dc70749ce2df0ebf824b32dce48dc51754b5611e
+Section: Tweaks
+Description: 照片直接删除和无限放大，抄的蜗牛的PhotoSkipDelAndInfiniteZoom
+Author: tune
+Name: PhotoZoomSkip
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.photozoomskip/js.json
 
 Package: com.tune.sfskipsplash
 Version: 0.0.1
@@ -1230,6 +1248,24 @@ Section: Tweaks
 Description: 照片直接删除和无限放大，抄的蜗牛的PhotoSkipDelAndInfiniteZoom
 Author: tune
 Name: PhotoZoomSkip
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.photozoomskip/js.json
+
+Package: com.tune.photozoomskip
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: tune
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: rootless/PhotoZoomSkip_0.0.3_rootless_arm64.deb
+Size: 3120
+MD5sum: c36976aaa96d65385b920cc04ecd8f6d
+SHA1: 11108b03a14bd370ba47e63accecea9649ec368b
+SHA256: fd48ba3ee04122186205610b82d9b7bc1cf2b77551aec74e57ef867267658a31
+Section: Tweaks
+Description: 照片直接删除和无限放大，抄的蜗牛的PhotoSkipDelAndInfiniteZoom
+Author: tune
+Name: PhotoZoomSkip
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.photozoomskip/js.json
 
 Package: com.tune.sfskipsplash
 Version: 0.0.1
@@ -1967,6 +2003,24 @@ Section: Tweaks
 Description: 照片直接删除和无限放大，抄的蜗牛的PhotoSkipDelAndInfiniteZoom
 Author: tune
 Name: PhotoZoomSkip
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.photozoomskip/js.json
+
+Package: com.tune.photozoomskip
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: tune
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: roothide/PhotoZoomSkip_0.0.3_roothide_arm64e.deb
+Size: 3068
+MD5sum: e53dc0d37aff2998963abc5181c964c6
+SHA1: b0fe93e799cbab2bf47e8f476a2f6bbd4331f02e
+SHA256: a8aed9cdb6d456b4ecdcc61df4f12290b3d3bb533209e55835fb33f15647053a
+Section: Tweaks
+Description: 照片直接删除和无限放大，抄的蜗牛的PhotoSkipDelAndInfiniteZoom
+Author: tune
+Name: PhotoZoomSkip
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.photozoomskip/js.json
 
 Package: com.tune.sfskipsplash
 Version: 0.0.1

@@ -1,0 +1,55 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "",
+  "tintColor": "#0a84ff",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "照片直接删除并跳过删除二次确认，同时解除照片最大放大倍数限制。参考自蜗牛的 PhotoSkipDelAndInfiniteZoom。"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.0.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "适配新版 iOS 照片框架：删除确认类名由 PUDeletePhotosActionController 更新为 PXPhotoKitDeletePhotosActionController，修复在新系统上「直接删除」不再生效的问题。"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "0.0.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "初始发布：照片直接删除并跳过删除二次确认，同时解除照片最大放大倍数限制。"
+        }
+      ]
+    }
+  ]
+}
