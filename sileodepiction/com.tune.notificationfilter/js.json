@@ -56,6 +56,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.3.6",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "优化拦截日志的保存方式，更省电、更流畅：\n\n- 之前每拦截一条通知就写一次日志文件，现在短时间内的多条日志会合并成一次写入。通知集中弹出的场景（如注销、重启后通知集中恢复）效果最明显。\n- 「清空日志」「调整日志上限」等操作依然立即生效，已清空的记录不会“复活”。\n- 小变化：拦截日志最多延迟约 2 秒显示，属于正常现象。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.3.5",
           "useBoldText": true,
           "useBottomMargin": false
