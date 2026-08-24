@@ -56,6 +56,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.3.7",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复 roothide 越狱下泄露越狱痕迹的问题（其他越狱方式不受影响）：\n\n- 之前插件记录的通知历史文件会保存在系统可见目录里，可能被检测越狱的 App 发现；现在改为保存到越狱的隐藏目录，不再暴露。\n- 升级后，旧版本残留在可见目录里的历史文件会被自动清理，无需手动删除。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.3.6",
           "useBoldText": true,
           "useBottomMargin": false
