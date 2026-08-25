@@ -56,6 +56,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.3.8",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复升级 1.3.7 后部分设备卡在注销界面、进不去桌面的问题（影响 Dopamine2 roothide + iOS 15，其他越狱方式不受影响）：\n\n- 原因是 1.3.7 升级时自动搬运旧历史文件的步骤在某些设备上引发了系统异常；本版本取消该搬运操作，改为直接写入隐藏路径，不再移动或删除任何文件。\n- 越狱痕迹隐藏效果保持不变，新的通知历史照常存到隐藏目录，不会被检测越狱的 App 发现。\n- 旧版本留在可见目录里的历史文件这次不再自动清理，会保留在磁盘上但不再读取使用，需要时可手动删除。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.3.7",
           "useBoldText": true,
           "useBottomMargin": false
