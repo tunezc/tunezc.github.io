@@ -60,6 +60,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.15.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复限流在锁屏后自动失效等问题，把限流控制整体退回原版命令驱动语义，并回退加速充电 LPM 到原版稳态语义。\n\n**修复：**\n- 锁屏后限流自动失效、电流恢复到未限流水平：此前限流状态改为随电池/适配器实时读数推导，锁屏后读数塌陷被系统推导回 off。现退回原版命令驱动语义，限流只由 ChargeLimiter 自己的充电命令和配置决定，不读电池/适配器/电流/锁屏信号，锁屏不再改变限流状态\n- 限流等级切换不原子：原先发两次独立配置请求，两次之间 daemon 可能用半更新配置出现短暂错误档。新增原子接口一次请求同时提交开关与等级，写盘失败整组回滚\n- iOS 17 禁流态亮屏误发“开始充电”通知：禁流改写 override key 后系统派生的连接状态抖动被当成真插电。加入禁流态守卫抑制伪插电边沿，真正拔线后守卫解除\n- roothide 包架构由 arm64 改为 arm64e\n- 回退加速充电 LPM 到原版稳态重申语义，修复用户空间重启后不生效、开 App 玄学延迟\n- 补充 bootstrap 与首电池事件兜底，修复重越狱/重启用户空间后未开 App 时加速充电不生效\n- 加速充电 LPM 首次应用与稳态重申职责分离，修复开 App 秒进 LPM、插电不进 LPM\n\n**新增：**\n- 原子限流配置：命令驱动，一次请求同时提交开关与等级，批量写"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.15.2",
           "useBoldText": true,
           "useBottomMargin": false
