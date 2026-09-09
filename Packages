@@ -232,6 +232,24 @@ Name: Modified ChargeLimiter
 Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
 
+Package: com.chargelimiter.mod
+Version: 1.16.0
+Architecture: iphoneos-arm
+Maintainer: tune
+Depends: firmware (>= 13.0)
+Filename: rootful/ChargeLimiter_1.16.0_rootful_arm.deb
+Size: 738156
+MD5sum: 5481202d195392c2dde029d57f356e74
+SHA1: f51629a9bd6a1ef1cfc7793dd8ef172bdfe018dc
+SHA256: 57a3ac47d6d954ad24e154e6554c93cbd2d9f737701e9e1864daf0493b2bbe60
+Section: Applications
+Priority: optional
+Description: 优化了一下界面
+Author: tune
+Name: Modified ChargeLimiter
+Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
+
 Package: com.local.12306nosplash
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -1010,6 +1028,24 @@ Size: 713072
 MD5sum: af079ede0f37e82b5b5d2d2b9c750792
 SHA1: bb0bbba9b4e84faa28e5dc769de1e125007f71ef
 SHA256: a1879cc85e18c1830bfcfb8772cc15135adc6d69366093c422a47e25f2385819
+Section: Applications
+Priority: optional
+Description: 优化了一下界面
+Author: tune
+Name: Modified ChargeLimiter
+Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
+
+Package: com.chargelimiter.mod
+Version: 1.16.0
+Architecture: iphoneos-arm64
+Maintainer: tune
+Depends: firmware (>= 13.0)
+Filename: rootless/ChargeLimiter_1.16.0_rootless_arm64.deb
+Size: 739116
+MD5sum: 3d14f5f103eb1100c7f515d18ad2e39e
+SHA1: 4f90863412dff3e04456f62762677c4bac6aab1a
+SHA256: 9bee532519ac0c35559f9fee0abbc979e37766a6d9b67c51e852726a1b732516
 Section: Applications
 Priority: optional
 Description: 优化了一下界面
@@ -1854,6 +1890,24 @@ Size: 712768
 MD5sum: bbe06a2a81d644e9e958d08824b9da07
 SHA1: b9421fdf6b25c40e4c5427f60466b5a928e7cb75
 SHA256: 5125ffb4e7e3a6f915a2cd3871b9fd3d5d1371712ddfff55898614199bf575df
+Section: Applications
+Priority: optional
+Description: 优化了一下界面
+Author: tune
+Name: Modified ChargeLimiter
+Icon: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.chargelimiter.mod/js.json
+
+Package: com.chargelimiter.mod
+Version: 1.16.0
+Architecture: iphoneos-arm64e
+Maintainer: tune
+Depends: firmware (>= 13.0)
+Filename: roothide/ChargeLimiter_1.16.0_roothide_arm64e.deb
+Size: 739012
+MD5sum: 1490931766e53f1d1fb3d506ae928a32
+SHA1: 5b17002f49b7b402bb145dd8bf67d8e5128d466f
+SHA256: 66359750c005de88a9d07d38407165ee418abb1e587575ed0b195848d6c78662
 Section: Applications
 Priority: optional
 Description: 优化了一下界面
