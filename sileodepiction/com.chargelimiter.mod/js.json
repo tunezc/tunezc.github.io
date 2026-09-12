@@ -60,6 +60,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.16.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "本版主线：**iOS 17 充电优化的双开关控制与完整还原**。iOS 17 起系统「充电优化」三选项（关闭 / 80% 限制 / 优化电池充电）背后是 OBC 与 MCL 两个独立开关，此前只关 OBC 一个开关无法真正生效；本版把两个开关成对联动控制，并新增「还原系统优化充电」入口——卸载 / 停用插件时把系统充电优化完整还原回用户原设置，不再残留。\n\n**新增：**\n- iOS 17 充电优化双开关联动：永久停用前记住 MCL 原状态并成对关闭，还原 / 自愈恢复记忆状态，避免把用户原选「80% 限制」静默改成「优化电池充电」\n- 完整还原入口三通道：App 高级设置「还原系统优化充电」+ CLI restore + notify 信号；主页状态 3 残留提示条（仅非托管会话提示，点按确认还原，不静默自动）\n- prerm 还原失败可见化：三平台 warn_restore_failed 提示，数据容器清理逻辑不变\n- get_bat_info 暴露 SmartChargeMCLSupported / SmartChargeMCLEnabled，供 App 显示与诊断\n\n**修复：**\n- iOS 16 崩溃回归：MCL selector 仅 iOS 17+ 存在，旧系统探测抛 unrecognized selector 打挂 daemon；改为 @available 与 respondsToSelector 双门控\n- 还原记忆键守卫：键不存在时 no-op，避免把从未停用用户的「80% 限制」按缺省静默降级为「优化电池充电」\n- 温控与 PPM 双归零：reset 与完整还原两路径补 setPPMSimulationMode，落实温控与 PPM 双归零\n- 英文模式 iPad 式列宽：主页与软件设置页加列宽硬上限，修 iPhone 15 Pro Max 主页 iPad 分屏样式\n\n**改进：**\n- 清理 67 条死翻译条目，语言表条目与代码引用精确一致\n- %ld 次 接入本地化，电量卡片计数英文用户不再看到裸中文"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.16.0",
           "useBoldText": true,
           "useBottomMargin": false
