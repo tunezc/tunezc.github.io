@@ -608,6 +608,24 @@ Name: Notification Filter
 Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
 
+Package: com.tune.notificationfilter
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: Tune
+Installed-Size: 1216
+Depends: mobilesubstrate, preferenceloader
+Filename: rootful/NotificationFilter_1.4.0_rootful_arm.deb
+Size: 293172
+MD5sum: 479b7de948ef7862298564c61fd2a043
+SHA1: fa072e709a22004cea2191abb5281b3378a54724
+SHA256: 05f63386dfcc1dc269fbc6453d2198e8de5386604b79d9a99d1a6418eca2ec80
+Section: Tweaks
+Description: Powerful notification filtering for jailbroken iOS
+Author: Tune
+Name: Notification Filter
+Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
+
 Package: com.tune.photozoomskip
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -1459,6 +1477,24 @@ Size: 282328
 MD5sum: 1015c62385c7dd7040466fa36764f776
 SHA1: 629240d04e031b7918873c92fcf37615ecb21d4a
 SHA256: 0dcfae65ffa7872f3bc793e23b7644812a8ac3ca570f5c93d6e2e5a80864c18c
+Section: Tweaks
+Description: Powerful notification filtering for jailbroken iOS
+Author: Tune
+Name: Notification Filter
+Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
+
+Package: com.tune.notificationfilter
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 1216
+Depends: mobilesubstrate, preferenceloader
+Filename: rootless/NotificationFilter_1.4.0_rootless_arm64.deb
+Size: 292548
+MD5sum: c427f09ecfa5a668291d29dfc4231a9a
+SHA1: c1af7e43f1b46b974d5b693c26b3a5effeae0720
+SHA256: 65cd4d148d2c2c1790d3c565d22631e4ef8717b9e0e1b6c0d40c3fd9d20817f0
 Section: Tweaks
 Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
@@ -2339,6 +2375,24 @@ Size: 280652
 MD5sum: 6b12ca4501a3ac24735093578771ee00
 SHA1: 4fea914a6f45a6591e7baef6e5da2d53ecc93cd0
 SHA256: 2698345d31089b9c750dfaab67e765b03c9e749f336b1351ea2c7afc551f2aa1
+Section: Tweaks
+Description: Powerful notification filtering for jailbroken iOS
+Author: Tune
+Name: Notification Filter
+Icon: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.notificationfilter/js.json
+
+Package: com.tune.notificationfilter
+Version: 1.4.0
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 1200
+Depends: mobilesubstrate, preferenceloader
+Filename: roothide/NotificationFilter_1.4.0_roothide_arm64e.deb
+Size: 291796
+MD5sum: 1ffdc6e6748bbfbdd0f98cef3ef61bb8
+SHA1: e449ea59ee0f740956c2ea6446b2e1896a434c4e
+SHA256: 94271760165c73e1b155d3272cf60b5574b3c4db07d86ffbfd97058098a1a95a
 Section: Tweaks
 Description: Powerful notification filtering for jailbroken iOS
 Author: Tune
