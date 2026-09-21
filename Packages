@@ -338,6 +338,24 @@ Name: DMKJNoSplash
 Icon: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/js.json
 
+Package: com.tune.h3kbhook
+Version: 1.10.2
+Architecture: iphoneos-arm
+Maintainer: 一刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: rootful/com.tune.h3kbhook_1.10.2_iphoneos-arm_rootful.deb
+Size: 110320
+MD5sum: 8acefcdf916d3676dfc1ff8be997fb2f
+SHA1: 7ed54e97f71861be0fb36db58e8c66e283f8cb9c
+SHA256: 51ebee36cbb3eea2838d033dfa7f48c25cdd526002ae61043c5bcf7f73a05944
+Section: Tweaks
+Description: 打包一刀的破解
+ 未修改包名（com.tune.h3kbhook），以保证老旧用户可直接升级覆盖。
+Author: 一刀
+Name: H3kbHook
+Icon: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/js.json
+
 Package: com.tune.jdnosplash
 Version: 0.1.0
 Architecture: iphoneos-arm
@@ -1195,6 +1213,24 @@ Author: Tune
 Name: DMKJNoSplash
 Icon: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/js.json
+
+Package: com.tune.h3kbhook
+Version: 1.10.2
+Architecture: iphoneos-arm64
+Maintainer: 一刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: rootless/com.tune.h3kbhook_1.10.2_iphoneos-arm64_rootless.deb
+Size: 109920
+MD5sum: a769f3ffe4b36ae74cd6b5eeb299168f
+SHA1: 5af524dc3247fc2d337e30f858418e0509c89722
+SHA256: 3530739b6a5e0fa7c69efd57b159463a214cfee1d20236260a8fa517cd22540b
+Section: Tweaks
+Description: 打包一刀的破解
+ 未修改包名（com.tune.h3kbhook），以保证老旧用户可直接升级覆盖。
+Author: 一刀
+Name: H3kbHook
+Icon: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/js.json
 
 Package: com.tune.h3kbhook
 Version: 1.2.0
@@ -2093,6 +2129,24 @@ Author: Tune
 Name: DMKJNoSplash
 Icon: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.dmkjnosplash/js.json
+
+Package: com.tune.h3kbhook
+Version: 1.10.2
+Architecture: iphoneos-arm64e
+Maintainer: 一刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: roothide/com.tune.h3kbhook_1.10.2_iphoneos-arm64e_roothide.deb
+Size: 110324
+MD5sum: f30bfb4d43f167dd202884f55264e318
+SHA1: 4d9998c998c3d3672574a799faa2681a168145a8
+SHA256: 1e250e36291d9a422b74e25c35d279a0abe9fb7e2cd5b01e0ed63d71a9826ec5
+Section: Tweaks
+Description: 打包一刀的破解
+ 未修改包名（com.tune.h3kbhook），以保证老旧用户可直接升级覆盖。
+Author: 一刀
+Name: H3kbHook
+Icon: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.h3kbhook/js.json
 
 Package: com.tune.h3kbhook
 Version: 1.2.0

@@ -37,6 +37,16 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
+          "title": "1.10.2",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "为保证老旧用户可直接升级，未修改包名（com.tune.h3kbhook）。本版本改用一刀提供的现成破解二进制直接打包，1.10.2 测试依旧可用。"
+        },
+        {
+          "class": "DepictionSubheaderView",
           "title": "1.2.0",
           "useBoldText": true,
           "useBottomMargin": false
