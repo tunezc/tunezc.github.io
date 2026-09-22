@@ -51,29 +51,9 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionAutoStackView",
-          "horizontalSpacing": 8,
-          "views": [
-            {
-              "class": "DepictionLabelView",
-              "text": "1.1.8",
-              "fontSize": 16,
-              "fontWeight": "bold",
-              "usePadding": false,
-              "alignment": 0,
-              "preferredWidth": 160
-            },
-            {
-              "class": "DepictionLabelView",
-              "text": "2026-09-22",
-              "fontSize": 14,
-              "fontWeight": "regular",
-              "textColor": "#8E8E93",
-              "usePadding": false,
-              "alignment": 2,
-              "preferredWidth": 112
-            }
-          ]
+          "class": "DepictionTableTextView",
+          "title": "1.1.8",
+          "text": "2026-09-22"
         },
         {
           "class": "DepictionSpacerView",
@@ -95,29 +75,9 @@
           "spacing": 24
         },
         {
-          "class": "DepictionAutoStackView",
-          "horizontalSpacing": 8,
-          "views": [
-            {
-              "class": "DepictionLabelView",
-              "text": "1.1.6",
-              "fontSize": 16,
-              "fontWeight": "bold",
-              "usePadding": false,
-              "alignment": 0,
-              "preferredWidth": 160
-            },
-            {
-              "class": "DepictionLabelView",
-              "text": "2026-03-07",
-              "fontSize": 14,
-              "fontWeight": "regular",
-              "textColor": "#8E8E93",
-              "usePadding": false,
-              "alignment": 2,
-              "preferredWidth": 112
-            }
-          ]
+          "class": "DepictionTableTextView",
+          "title": "1.1.6",
+          "text": "2026-03-07"
         },
         {
           "class": "DepictionSpacerView",

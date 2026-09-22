@@ -23,29 +23,9 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionAutoStackView",
-          "horizontalSpacing": 8,
-          "views": [
-            {
-              "class": "DepictionLabelView",
-              "text": "1.0.0",
-              "fontSize": 16,
-              "fontWeight": "bold",
-              "usePadding": false,
-              "alignment": 0,
-              "preferredWidth": 160
-            },
-            {
-              "class": "DepictionLabelView",
-              "text": "2026-07-18",
-              "fontSize": 14,
-              "fontWeight": "regular",
-              "textColor": "#8E8E93",
-              "usePadding": false,
-              "alignment": 2,
-              "preferredWidth": 112
-            }
-          ]
+          "class": "DepictionTableTextView",
+          "title": "1.0.0",
+          "text": "2026-07-18"
         },
         {
           "class": "DepictionSpacerView",
