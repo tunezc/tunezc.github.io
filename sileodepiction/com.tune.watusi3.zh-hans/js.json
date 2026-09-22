@@ -36,20 +36,31 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionSubheaderView",
-          "title": "0.0.1 / v0.0.2",
-          "useBoldText": true,
-          "useBottomMargin": false
+          "class": "DepictionLabelView",
+          "text": "0.0.1 / v0.0.2 · 2026-05-16",
+          "fontSize": 24,
+          "fontWeight": "bold"
         },
         {
           "class": "DepictionMarkdownView",
           "markdown": "精简语言包。GitHub release 标记为 `v0.0.2`，但 deb control 版本号仍为 `0.0.1`。"
         },
         {
-          "class": "DepictionSubheaderView",
-          "title": "0.0.1",
-          "useBoldText": true,
-          "useBottomMargin": false
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "0.0.1 · 2026-04-30",
+          "fontSize": 24,
+          "fontWeight": "bold"
         },
         {
           "class": "DepictionMarkdownView",

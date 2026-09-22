@@ -51,20 +51,31 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionSubheaderView",
-          "title": "1.1.8",
-          "useBoldText": true,
-          "useBottomMargin": false
+          "class": "DepictionLabelView",
+          "text": "1.1.8 · 2026-09-22",
+          "fontSize": 24,
+          "fontWeight": "bold"
         },
         {
           "class": "DepictionMarkdownView",
           "markdown": "新增对多款「文字硬编码、无语言包」插件设置页的语言切换支持，并修复因打包权限导致设置页不显示的问题：\n\n- 新增支持切换 Hello 键盘侠（输入法）、ST Tool、Hello 120Hz、Hello CPU 等插件设置页的语言；这些插件的文字硬编码在代码里、不提供 .lproj 语言包，此前无法识别或切换。\n- 修复 Hello 120Hz / Hello CPU 的英文选项：其英文存放在 Base.lproj、中文在 zh_CN.lproj，之前英文选项不出现、切换后半中半英，现已修正。\n- 修复部分设备因打包权限过严导致 Settings.app 读不到、设置里不显示 TweakLang 条目的问题。\n- ST Tool 主页与「附加」页可正常切换中英文，没有英文分支的中文段落仍保持中文。\n- 内部改为数据驱动的「硬编码双语适配器」注册表，新增条目只改数据、不影响扫描与拦截逻辑；使用标准 .lproj 的插件切换行为保持不变。"
         },
         {
-          "class": "DepictionSubheaderView",
-          "title": "1.1.6",
-          "useBoldText": true,
-          "useBottomMargin": false
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "1.1.6 · 2026-03-07",
+          "fontSize": 24,
+          "fontWeight": "bold"
         },
         {
           "class": "DepictionMarkdownView",

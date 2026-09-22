@@ -63,40 +63,73 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionSubheaderView",
-          "title": "2.0.5",
-          "useBoldText": true,
-          "useBottomMargin": false
+          "class": "DepictionLabelView",
+          "text": "2.0.5 · 2026-05-28",
+          "fontSize": 24,
+          "fontWeight": "bold"
         },
         {
           "class": "DepictionMarkdownView",
           "markdown": "优化一些 UI。"
         },
         {
-          "class": "DepictionSubheaderView",
-          "title": "2.0.4",
-          "useBoldText": true,
-          "useBottomMargin": false
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "2.0.4 · 2026-05-21",
+          "fontSize": 24,
+          "fontWeight": "bold"
         },
         {
           "class": "DepictionMarkdownView",
           "markdown": "全站页面图标统一改为 SF Symbols。"
         },
         {
-          "class": "DepictionSubheaderView",
-          "title": "2.0.3",
-          "useBoldText": true,
-          "useBottomMargin": false
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "2.0.3 · 2026-05-21",
+          "fontSize": 24,
+          "fontWeight": "bold"
         },
         {
           "class": "DepictionMarkdownView",
           "markdown": "优化整体 UI。\n\n优化功能修复页分组，新增“当前不支持安装的插件”独立区域。"
         },
         {
-          "class": "DepictionSubheaderView",
-          "title": "2.0.2",
-          "useBoldText": true,
-          "useBottomMargin": false
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "2.0.2 · 2026-05-18",
+          "fontSize": 24,
+          "fontWeight": "bold"
         },
         {
           "class": "DepictionMarkdownView",

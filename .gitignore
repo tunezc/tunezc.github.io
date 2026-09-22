@@ -3,3 +3,12 @@ update_repo.sh
 .vibeskills
 docs
 outputs
+# >>> Comet managed project state >>>
+!/.comet/
+/.comet/*
+!/.comet/config.yaml
+# <<< Comet managed project state <<<
+.comet
+.codex
+.agents
+.claude

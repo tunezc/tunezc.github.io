@@ -36,10 +36,10 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionSubheaderView",
-          "title": "1.0.0",
-          "useBoldText": true,
-          "useBottomMargin": false
+          "class": "DepictionLabelView",
+          "text": "1.0.0 · 2026-05-26",
+          "fontSize": 24,
+          "fontWeight": "bold"
         },
         {
           "class": "DepictionMarkdownView",
