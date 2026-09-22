@@ -24,9 +24,22 @@
       "views": [
         {
           "class": "DepictionLabelView",
-          "text": "1.0.3 · 2026-07-17",
-          "fontSize": 24,
-          "fontWeight": "bold"
+          "text": "1.0.3",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "2026-07-17",
+          "fontSize": 16,
+          "fontWeight": "regular",
+          "textColor": "#8E8E93",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
         },
         {
           "class": "DepictionMarkdownView",

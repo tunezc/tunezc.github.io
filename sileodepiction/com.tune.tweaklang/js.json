@@ -52,9 +52,22 @@
       "views": [
         {
           "class": "DepictionLabelView",
-          "text": "1.1.8 · 2026-09-22",
-          "fontSize": 24,
-          "fontWeight": "bold"
+          "text": "1.1.8",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "2026-09-22",
+          "fontSize": 16,
+          "fontWeight": "regular",
+          "textColor": "#8E8E93",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
         },
         {
           "class": "DepictionMarkdownView",
@@ -73,9 +86,22 @@
         },
         {
           "class": "DepictionLabelView",
-          "text": "1.1.6 · 2026-03-07",
-          "fontSize": 24,
-          "fontWeight": "bold"
+          "text": "1.1.6",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "2026-03-07",
+          "fontSize": 16,
+          "fontWeight": "regular",
+          "textColor": "#8E8E93",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
         },
         {
           "class": "DepictionMarkdownView",

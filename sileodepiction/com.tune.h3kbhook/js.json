@@ -37,9 +37,22 @@
       "views": [
         {
           "class": "DepictionLabelView",
-          "text": "1.10.2 · 2026-09-21",
-          "fontSize": 24,
-          "fontWeight": "bold"
+          "text": "1.10.2",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "2026-09-21",
+          "fontSize": 16,
+          "fontWeight": "regular",
+          "textColor": "#8E8E93",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
         },
         {
           "class": "DepictionMarkdownView",
@@ -58,9 +71,22 @@
         },
         {
           "class": "DepictionLabelView",
-          "text": "1.2.0 · 2026-05-10",
-          "fontSize": 24,
-          "fontWeight": "bold"
+          "text": "1.2.0",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "2026-05-10",
+          "fontSize": 16,
+          "fontWeight": "regular",
+          "textColor": "#8E8E93",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
         },
         {
           "class": "DepictionMarkdownView",
@@ -79,9 +105,22 @@
         },
         {
           "class": "DepictionLabelView",
-          "text": "1.1.0 · 2026-04-15",
-          "fontSize": 24,
-          "fontWeight": "bold"
+          "text": "1.1.0",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "2026-04-15",
+          "fontSize": 16,
+          "fontWeight": "regular",
+          "textColor": "#8E8E93",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
         },
         {
           "class": "DepictionMarkdownView",
@@ -100,9 +139,22 @@
         },
         {
           "class": "DepictionLabelView",
-          "text": "1.0.0 · 2026-04-10",
-          "fontSize": 24,
-          "fontWeight": "bold"
+          "text": "1.0.0",
+          "fontSize": 20,
+          "fontWeight": "bold",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "2026-04-10",
+          "fontSize": 16,
+          "fontWeight": "regular",
+          "textColor": "#8E8E93",
+          "usePadding": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
         },
         {
           "class": "DepictionMarkdownView",
