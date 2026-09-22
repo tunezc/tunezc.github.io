@@ -36,23 +36,33 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionLabelView",
-          "text": "0.0.1 / v0.0.2",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-05-16",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "0.0.1 / v0.0.2",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-16",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -67,26 +77,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "0.0.1",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-04-30",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "0.0.1",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-04-30",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",

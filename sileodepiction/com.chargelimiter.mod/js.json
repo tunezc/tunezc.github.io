@@ -59,23 +59,33 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionLabelView",
-          "text": "1.16.1",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-09-12",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.16.1",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-12",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -90,26 +100,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.16.0",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-09-09",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.16.0",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-09",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -124,26 +144,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.15.3",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-08-28",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.15.3",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-28",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -158,26 +188,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.15.2",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-08-16",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.15.2",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-16",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -192,26 +232,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.15.1",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-08-13",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.15.1",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-13",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -226,26 +276,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.15.0",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-08-11",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.15.0",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-11",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -260,26 +320,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.14.1",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-08-08",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.14.1",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-08",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -294,26 +364,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.14.0",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-08-06",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.14.0",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-06",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -328,26 +408,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.13.9",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-06-23",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.13.9",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-06-23",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -362,26 +452,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.13.8",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-06-19",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.13.8",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-06-19",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -396,26 +496,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.13.7",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-06-12",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.13.7",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-06-12",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -430,26 +540,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.13.6",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-06-06",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.13.6",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-06-06",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -464,26 +584,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.13.5",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-06-04",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.13.5",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-06-04",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -498,26 +628,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.13.4",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-06-04",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.13.4",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-06-04",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -532,26 +672,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.13.3",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-05-24",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.13.3",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-24",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -566,26 +716,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.13.2",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-05-19",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.13.2",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-19",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -600,26 +760,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.13.1",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-05-16",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.13.1",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-16",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -634,26 +804,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.13.0",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-05-16",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.13.0",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-16",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -668,26 +848,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.12.5",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-05-14",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.12.5",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-14",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -702,26 +892,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.12.4",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-05-05",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.12.4",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-05",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -736,26 +936,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.12.2",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-04-24",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.12.2",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-04-24",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -770,26 +980,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.12.0",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-04-17",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.12.0",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-04-17",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -804,26 +1024,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.11.4",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-04-05",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.11.4",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-04-05",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -838,26 +1068,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.11.3",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-03-29",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.11.3",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-03-29",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -872,26 +1112,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.11.1",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-03-23",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.11.1",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-03-23",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -906,26 +1156,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.11.0",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-03-23",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.11.0",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-03-23",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -940,26 +1200,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.10.1",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-03-21",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.10.1",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-03-21",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -974,26 +1244,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.9.6.3",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-02-26",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.9.6.3",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-02-26",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -1008,26 +1288,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.9.6.2",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-02-16",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.9.6.2",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-02-16",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -1042,26 +1332,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.9.6.1",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-02-15",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.9.6.1",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-02-15",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -1076,26 +1376,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.9.6",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-02-10",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.9.6",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-02-10",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -1110,26 +1420,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.9.5",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-02-07",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.9.5",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-02-07",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -1144,26 +1464,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.9.3",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-02-04",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.9.3",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-02-04",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -1178,26 +1508,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.9.2",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-02-04",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.9.2",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-02-04",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -1212,26 +1552,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.9.0",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-02-04",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.9.0",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-02-04",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
@@ -1246,26 +1596,36 @@
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 16
+          "spacing": 24
         },
         {
-          "class": "DepictionLabelView",
-          "text": "1.8",
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "usePadding": false
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "2026-02-01",
-          "fontSize": 16,
-          "fontWeight": "regular",
-          "textColor": "#8E8E93",
-          "usePadding": false
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 8,
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.8",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0,
+              "preferredWidth": 160
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-02-01",
+              "fontSize": 14,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2,
+              "preferredWidth": 112
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
-          "spacing": 8
+          "spacing": 10
         },
         {
           "class": "DepictionMarkdownView",
