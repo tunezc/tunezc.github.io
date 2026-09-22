@@ -23,6 +23,10 @@
       "tabname": "更新日志",
       "views": [
         {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
           "class": "DepictionLayerView",
           "views": [
             {
