@@ -279,7 +279,7 @@ Size: 4896
 MD5sum: e0704b01df507f529210cf0818b01142
 SHA1: 5a6224eb45a623dff38928fc713efd8a3c0954d4
 SHA256: 89214df95a4101bcd44690e4aa53de4e052e2acc1dc50d737f5687f5a7d34d54
-Section: Tweaks
+Section: Ad Block
 Description: Skip 12306 fullscreen splash ads (5.9.6). Cold start + resume. Formerly Skip12306Splash.
 Author: local
 Name: 12306-NoSplash
@@ -313,7 +313,7 @@ Size: 4372
 MD5sum: 394722011559961868602317c0195d31
 SHA1: b80b3cd50d22a8ad88f0bc29812b4b9ed657ba12
 SHA256: bf65f083fd61021caeb42305996400b0d32fe9aa2b64b394f519c7467ccefa53
-Section: Tweaks
+Section: Ad Block
 Description: 跳过 携程旅行 开屏广告，基于8.79.0 开发
 Author: Tune
 Name: 携程旅行去开屏广告
@@ -331,7 +331,7 @@ Size: 4356
 MD5sum: 046860cf066147442eca43534c67261d
 SHA1: 9f4857fe1859da29b1de9eaf7611c3cb63238f9a
 SHA256: 1993d03ca7b5d9441b61c691f7e4febad1343d4b114c838d18a55e83d0d6f92a
-Section: Tweaks
+Section: Ad Block
 Description: 去除到梦空间 4.9.2 开屏广告
 Author: Tune
 Name: DMKJNoSplash
@@ -367,7 +367,7 @@ Size: 3116
 MD5sum: 20d270542fd18a9208d2ac6af59a277c
 SHA1: 4f1e64dad4d6416a447e0d78171ff716448225c0
 SHA256: 15eb44fd3c286afee6893a990d39fb834a6517d35defdf18e398548c5ef611a1
-Section: Tweaks
+Section: Ad Block
 Description: 去京东开屏广告
 Author: Tune
 Name: 京东去开屏广告
@@ -724,7 +724,7 @@ Size: 10318
 MD5sum: 66de7a54a73e49325733f26de0287b04
 SHA1: 64e68df53c78ac58080c3b7dbfd1d10b9d2df6ee
 SHA256: 86c1fe4e8b304b1cd3452de3c84ece93ac0b77bac62a646a2e1bb6da31964922
-Section: Tweaks
+Section: Ad Block
 Description: 跳过顺丰开屏广告，基于9.87.4开发，不生效请清理一次缓存
 Author: Tune
 Name: SFSkipSplash
@@ -742,7 +742,7 @@ Size: 6580
 MD5sum: 14301dd518655261fcc7e2680c4c615a
 SHA1: b5925986ad94e273420f2e55615be8475e02a01b
 SHA256: 85e16886d3dd01d31ce92e47d73174be6b4a9497ac65de06036235d943003dac
-Section: Tweaks
+Section: Ad Block
 Description: 跳过识货的开屏广告，基于8.75开发，如果不生效尝试清理一次缓存
 Author: Tune
 Name: ShihuoSkipla
@@ -795,7 +795,7 @@ Size: 3932
 MD5sum: ace70569125edc127c3bce6e1b45c3c8
 SHA1: 9ba26d75f3d497b92f8eec51a143a03bd123fb97
 SHA256: 91472ed3da1093514a4a4700912f2d3909edf80518c8785914ab8617f98851f0
-Section: Tweaks
+Section: Ad Block
 Description: 智行火车票去开屏广告
 Author: Tune
 Name: 智行火车票去开屏广告
@@ -1155,7 +1155,7 @@ Size: 4972
 MD5sum: 1e603400bc470fa6f4f09c447047978d
 SHA1: 488ebdd5d1bd4bfbdf901736969225bd64e63933
 SHA256: 7c8552704945b54ab7984210b7fc4ccd48a1c0620b55870ad9dd581bc73ffb45
-Section: Tweaks
+Section: Ad Block
 Description: Skip 12306 fullscreen splash ads (5.9.6). Cold start + resume. Formerly Skip12306Splash.
 Author: local
 Name: 12306-NoSplash
@@ -1189,7 +1189,7 @@ Size: 5560
 MD5sum: fbeb63927e3007bc6f472a7fbbe5e6f2
 SHA1: f5d24b1d481fdb4dbaadc9f649d2146637073c80
 SHA256: da970e60f38a84eec6f6f4535b6cea483f9bb668000c646a045ec0f66eb61a6f
-Section: Tweaks
+Section: Ad Block
 Description: Block Chaoxing splash ad launch requests.
 Author: tune
 Name: ChaoxingLaunchAdBlock
@@ -1207,7 +1207,7 @@ Size: 4444
 MD5sum: f603385a3ca93e2dbbd8764a8a2bf946
 SHA1: 9fff3cd9985b11d07f8e4e4c2aa8baefc260182c
 SHA256: 572f56cb0c90bcc7455f2e0d3dd7865b744746d13a3c492111cb18c7175ac446
-Section: Tweaks
+Section: Ad Block
 Description: 跳过 携程旅行 开屏广告，基于8.79.0 开发
 Author: Tune
 Name: 携程旅行去开屏广告
@@ -1225,7 +1225,7 @@ Size: 4420
 MD5sum: e113c0cc4c0dafe20c38a75cb655c478
 SHA1: ebc637e550cd54cfb42f868f26a00d73630d3552
 SHA256: 8fec1c9de3b6a1275ed48cf1ef4f30b7c4a40740ff4eb9885d56037721216c5f
-Section: Tweaks
+Section: Ad Block
 Description: 去除到梦空间 4.9.2 开屏广告
 Author: Tune
 Name: DMKJNoSplash
@@ -1279,7 +1279,7 @@ Size: 3196
 MD5sum: 3f0b5da240a19868c88ef3d414cf7c14
 SHA1: 5dc68bb225d1ba96263d4f4e7d2d145c545c0223
 SHA256: 1e8d2625ff0e114338aa9f9007c5b184038206a2ab0e836434c8a931e55532b6
-Section: Tweaks
+Section: Ad Block
 Description: 去京东开屏广告
 Author: Tune
 Name: 京东去开屏广告
@@ -1636,7 +1636,7 @@ Size: 10406
 MD5sum: 37c13af06d9d3eb3a8a0f9d739491990
 SHA1: bfbe8e6899be6db94ce591651f0bebd4eea0cb5a
 SHA256: 197f283f82253d2d6bc553139b38bc06b3af152af8d06cc45bd20c925cd2b334
-Section: Tweaks
+Section: Ad Block
 Description: 跳过顺丰开屏广告，基于9.87.4开发，不生效请清理一次缓存
 Author: Tune
 Name: SFSkipSplash
@@ -1654,7 +1654,7 @@ Size: 6652
 MD5sum: 0f23425e04b0f30202d671622cc323a4
 SHA1: 05482302be29cd61dd38765d398a8efe256a8cef
 SHA256: 7cbd750d26088232305f0f2a8f5a75f4b28a2918323e5043e0230951c74304b7
-Section: Tweaks
+Section: Ad Block
 Description: 跳过识货的开屏广告，基于8.75开发，如果不生效尝试清理一次缓存
 Author: Tune
 Name: ShihuoSkipla
@@ -1751,7 +1751,7 @@ Size: 4012
 MD5sum: c0b8d404e31d822b66200e2a2c90496c
 SHA1: e1204184a0d282cf7787e6b6de4f42a4796f297c
 SHA256: e381f7ec46ee11cb0062d490641e408a2fcfa6a6bd749642f33c501848cc8ea7
-Section: Tweaks
+Section: Ad Block
 Description: 智行火车票去开屏广告
 Author: Tune
 Name: 智行火车票去开屏广告
@@ -2111,7 +2111,7 @@ Size: 4912
 MD5sum: de60b07372ed741e06a66f5c8e7a81dd
 SHA1: b273784ce4be06a495ef5a8474517518ffe1ab4d
 SHA256: 4cd53a50fe0fab2d705ac343eea3704a2b84fa7ce1d1b85179bacb9bd3fc2dcf
-Section: Tweaks
+Section: Ad Block
 Description: Skip 12306 fullscreen splash ads (5.9.6). Cold start + resume. Formerly Skip12306Splash.
 Author: local
 Name: 12306-NoSplash
@@ -2145,7 +2145,7 @@ Size: 5498
 MD5sum: b31940df959cce925e73de11a13733b7
 SHA1: 2e6b1ab561a05ac43a184e385fdbbbf358c3ade8
 SHA256: 811c6e3495f4ac4aa714ce7ac3b08e607cd551678b085dddd4316d65e0844243
-Section: Tweaks
+Section: Ad Block
 Description: Block Chaoxing splash ad launch requests.
 Author: tune
 Name: ChaoxingLaunchAdBlock
@@ -2163,7 +2163,7 @@ Size: 4388
 MD5sum: a71a3c14d8b28c876c903faf5fe44c12
 SHA1: ccba7447187bebcd4e9fd5b4f4c584e9da965e3b
 SHA256: 3d7786d7a9a7ac620c8ebeee9a77e25f80dd4d1db1ca7d900db7fc97d4d6abbd
-Section: Tweaks
+Section: Ad Block
 Description: 跳过 携程旅行 开屏广告，基于8.79.0 开发
 Author: Tune
 Name: 携程旅行去开屏广告
@@ -2181,7 +2181,7 @@ Size: 3448
 MD5sum: 655ce2aac92df9ade0441731a6f19fbf
 SHA1: 25d21891f7ab2a5e816f151b0e93c621dcf41f27
 SHA256: 8bc51ba81a9f96a7ea722ce45cfb27803234a0b7396426d2e87137cf1c6e6c3b
-Section: Tweaks
+Section: Ad Block
 Description: 去除到梦空间 4.9.2 开屏广告
 Author: Tune
 Name: DMKJNoSplash
@@ -2235,7 +2235,7 @@ Size: 3132
 MD5sum: 36b5f264c1c03d3f48a5bbb3abf75055
 SHA1: 3492b73ddce572b2079610fe01f960fb67fceb49
 SHA256: d78c81123714c8f51957b87844472a4c1461d7961628cf9e5871cb77aa719817
-Section: Tweaks
+Section: Ad Block
 Description: 去京东开屏广告
 Author: Tune
 Name: 京东去开屏广告
@@ -2592,7 +2592,7 @@ Size: 10336
 MD5sum: 9ff2b699dc94ccb0a547156f999a2184
 SHA1: 08ce0a7f5a773b09ee016c1e8789c83afbb81674
 SHA256: 56b3c0af2f689c6dba0d35acd38f0cdad5b094c4a16c18be684af3a73084d699
-Section: Tweaks
+Section: Ad Block
 Description: 跳过顺丰开屏广告，基于9.87.4开发，不生效请清理一次缓存
 Author: Tune
 Name: SFSkipSplash
@@ -2610,7 +2610,7 @@ Size: 6608
 MD5sum: 05ed5d02223a598b5715fccd46a6a9cf
 SHA1: c766b4a069a181175fa52df9e1dd310496a90863
 SHA256: 74193b201b3a39a9ba913ee9acfbc2273f0f4ff654328463d4164eed521dbc80
-Section: Tweaks
+Section: Ad Block
 Description: 跳过识货的开屏广告，基于8.75开发，如果不生效尝试清理一次缓存
 Author: Tune
 Name: ShihuoSkipla
@@ -2690,7 +2690,7 @@ Size: 4176
 MD5sum: 91c17c1015fc168fb279f74dae0c1bbc
 SHA1: f8933b2f292c0c9b12041b41255f48c8a78ecb4d
 SHA256: 276b99544d17134378d9e6cd62b2319f9a02f2142e51154e0924289d07eaeb3d
-Section: Tweaks
+Section: Ad Block
 Description: Remove the Watusi top banner ad in WhatsApp chat screens.
 Author: tune
 Name: Watusi AD Remove
@@ -2725,7 +2725,7 @@ Size: 3952
 MD5sum: 39309d359490a97068b1e10ff9508e5b
 SHA1: e156e04371b54d9f174d91886a56006d2c23d48f
 SHA256: 84ba00dd1085a13154292abeb848ca18f47d04112b1c6ba2dcba0065cb1300a6
-Section: Tweaks
+Section: Ad Block
 Description: 智行火车票去开屏广告
 Author: Tune
 Name: 智行火车票去开屏广告
