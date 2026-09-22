@@ -1701,6 +1701,28 @@ Sileodepiction: https://raw.githubusercontent.com/tunecc/TweakLang/main/depictio
 Icon: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/js.json
 
+Package: com.tune.tweaklang
+Version: 1.1.8
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 436
+Depends: mobilesubstrate, preferenceloader
+Filename: rootless/TweakLang_1.1.8_rootless_arm64.deb
+Size: 58958
+MD5sum: c9b0beba62e0126d740eb98f304f4597
+SHA1: e9b15bd8bf4b46a953460a1f2573f03d85d2ced3
+SHA256: e13a3c46fddf13fbe77411d92bae21946f012c532541cf9a43a2b6e33696268d
+Section: Tweaks
+Homepage: https://github.com/tunecc/TweakLang
+Description: 为单个越狱插件偏好设置页面自定义显示语言
+ Customize the display language of individual jailbreak tweak preference panes in Settings.
+Author: Tune
+Icon: https://raw.githubusercontent.com/tunecc/TweakLang/main/tweaklang.png
+Name: TweakLang
+Sileodepiction: https://raw.githubusercontent.com/tunecc/TweakLang/main/depictions/sileo.json
+Icon: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/js.json
+
 Package: com.tune.watusi3.zh-hans
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -2624,6 +2646,28 @@ Size: 56860
 MD5sum: c426f6e642488755e6c2e979e0f40188
 SHA1: 2dd578d73fd60b149cdb4ea5000ee26f4b1d0080
 SHA256: a7556f7cbf62caf0589a0977f016d8e654f9133ee1978e0eb87295135d0e34f1
+Section: Tweaks
+Homepage: https://github.com/tunecc/TweakLang
+Description: 为单个越狱插件偏好设置页面自定义显示语言
+ Customize the display language of individual jailbreak tweak preference panes in Settings.
+Author: Tune
+Icon: https://raw.githubusercontent.com/tunecc/TweakLang/main/tweaklang.png
+Name: TweakLang
+Sileodepiction: https://raw.githubusercontent.com/tunecc/TweakLang/main/depictions/sileo.json
+Icon: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.tweaklang/js.json
+
+Package: com.tune.tweaklang
+Version: 1.1.8
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 436
+Depends: mobilesubstrate, preferenceloader
+Filename: roothide/TweakLang_1.1.8_roothide_arm64e.deb
+Size: 58928
+MD5sum: bc4742406a80a90ae20b8ceac8e150b6
+SHA1: 47f7347415d132471c1b233c9de39fde74505c2c
+SHA256: 7cd94d2735379be2b5d6b724c43c6f2422cbec498235bfbb9c06f0ada29335f7
 Section: Tweaks
 Homepage: https://github.com/tunecc/TweakLang
 Description: 为单个越狱插件偏好设置页面自定义显示语言
