@@ -30,9 +30,26 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionTableTextView",
-          "title": "0.0.4",
-          "text": "2026-08-23"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "0.0.4",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-23",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -54,9 +71,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "0.0.3",
-          "text": "2026-08-23"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "0.0.3",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-23",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -78,9 +112,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "0.0.1",
-          "text": "2026-05-27"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "0.0.1",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-27",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",

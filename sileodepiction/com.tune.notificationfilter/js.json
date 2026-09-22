@@ -55,9 +55,26 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionTableTextView",
-          "title": "1.4.1",
-          "text": "2026-09-21"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.4.1",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-21",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -79,9 +96,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.4.0",
-          "text": "2026-09-18"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.4.0",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-18",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -103,9 +137,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.3.8",
-          "text": "2026-08-25"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.3.8",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-25",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -127,9 +178,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.3.7",
-          "text": "2026-08-24"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.3.7",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-24",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -151,9 +219,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.3.6",
-          "text": "2026-08-23"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.3.6",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-23",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -175,9 +260,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.3.5",
-          "text": "2026-08-23"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.3.5",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-23",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -199,9 +301,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.3.4",
-          "text": "2026-08-22"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.3.4",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-08-22",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -223,9 +342,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.3.3",
-          "text": "2026-07-21"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.3.3",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-07-21",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -247,9 +383,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.3.2",
-          "text": "2026-07-04"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.3.2",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-07-04",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -271,9 +424,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.3.1",
-          "text": "2026-07-02"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.3.1",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-07-02",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -295,9 +465,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.3.0",
-          "text": "2026-07-02"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.3.0",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-07-02",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -319,9 +506,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.2.4",
-          "text": "2026-07-01"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.2.4",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-07-01",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -343,9 +547,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.2.3",
-          "text": "2026-06-20"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.2.3",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-06-20",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -367,9 +588,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.2.2",
-          "text": "2026-06-06"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.2.2",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-06-06",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -391,9 +629,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.2.1",
-          "text": "2026-05-26"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.2.1",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-26",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -415,9 +670,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.2.0",
-          "text": "2026-05-23"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.2.0",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-23",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -439,9 +711,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.1.0",
-          "text": "2026-05-19"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.1.0",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-19",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -463,9 +752,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.0.1",
-          "text": "2026-05-06"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.0.1",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-06",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
@@ -487,9 +793,26 @@
           "spacing": 24
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "1.0.0",
-          "text": "2026-05-01"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.0.0",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-05-01",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionSpacerView",
