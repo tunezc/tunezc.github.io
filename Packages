@@ -2314,6 +2314,21 @@ Name: Loon Policy Keep
 Icon: https://tunezc.github.io/sileodepiction/com.tune.loonpolicykeep/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.loonpolicykeep/js.json
 
+Package: com.tune.nbcrack
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: 一刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: roothide/com.tune.nbcrack_1.0.0_iphoneos-arm64e_roothide.deb
+Size: 227612
+MD5sum: 38fa7b48291932462396cfb9a9eee593
+SHA1: 5fba304820f89bd18a809ab807f333febb26c2ee
+SHA256: ed0b71c2ff1e0d19d0d988edf55159161a07caf6c3dac093943541a5c65a2a35
+Section: Tweaks
+Description: NB Master 破解注入（打包一刀的破解）
+Author: 一刀
+Name: NBCrack
+
 Package: com.tune.notificationfilter
 Version: 1.1.0
 Architecture: iphoneos-arm64e
