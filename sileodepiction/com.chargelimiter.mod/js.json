@@ -67,6 +67,47 @@
           "views": [
             {
               "class": "DepictionLabelView",
+              "text": "1.17.5",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-10-10",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 10
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "本版主线：**电池图标从「充电即绿」改为限流状态的真实反映**。以前只要在充电，主页图标的横杆就是绿的，看不出 ChargeLimiter 到底有没有在干预。现在五档高温模拟各自有颜色和动画——靛蓝=未开启、青=正常、黄=轻度、橙=中度、红=重度，档位越高流光越快；插着线充电时图标变成闪电并着成当前档位颜色，一眼能看出「在充电但被限流」。同时修掉了仅限流模式下图标卡在旧状态不刷新的问题。\n\n**新增：**\n- 电池图标按限流档位分色分动画：关闭=靛蓝（静止）、正常=青色（缓慢明暗呼吸）、轻度=黄色（慢速流光）、中度=橙色（中速流光）、重度=红色（快速流光）——不用进设置页，看主页图标就知道当前限流多重\n- 插电充电时段显示闪电图标：图标着成当前档位的颜色，既保留「正在充电」的信息，又不再用绿色横杆误导；未插电时显示对应的温度图标（温度计 / 火焰）\n- 限流模式专属状态文字：图标下方的说明改为「限流中 · 中度」「限流未开启」这类表述，直接说明当前限流状态，不再和电源路径卡重复\n- 26 条电池图标合约测试：覆盖五档配色、动画参数、图标选择、状态文字与刷新链路，防止后续改动让图标「退回到全绿」\n\n**变更：**\n- 仅限流模式下图标改为实时刷新：切换模式、调整档位时图标立即跟随，不再留着切模式前的绿色\n- 启动时不再闪一下绿色：仅限流模式下打开 App，图标直接显示当前限流状态\n\n**修复：**\n- 仅限流模式下电池图标残留绿色充电横杆：根因是图标判定读的是 `amperage` / `policyState` 这类只有 daemon 才会更新的字段，而仅限流模式下 daemon 根本不运行，这些值停留在切模式前的旧状态；现改用仅限流模式自己的实时状态（当前生效时段、生效档位、是否插电充电）来判定\n- 档位关闭时图标显示错误颜色：当前时段没有施加热模拟时，图标明确显示靛蓝静止状态，而不是沿用上一个档位的颜色"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 24
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
               "text": "1.17.4",
               "fontSize": 17,
               "fontWeight": "bold",
