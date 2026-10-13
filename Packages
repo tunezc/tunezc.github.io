@@ -1,3 +1,20 @@
+Package: com.34306.watched
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: Little 34306
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: rootful/watched_2.1_rootful_arm.deb
+Size: 9264
+MD5sum: c2d780362681c6d46dd1b211aff31946
+SHA1: 10ed3413bc7cda8efb2a2ae2df4f284334a68a14
+SHA256: 31e9695fe6bead1553acc6f679816fae6f08f2410d67cd22ed355b6f102f67f8
+Section: Tweaks
+Description: Paired your Apple Watch on new watchOS with older iOS
+Author: 34306
+Name: watched
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.34306.watched/js.json
+
 Package: com.chargelimiter.mod
 Version: 1.13.2
 Architecture: iphoneos-arm
@@ -927,6 +944,23 @@ Author: 577FKJ
 Name: WatchFix
 Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
+
+Package: com.34306.watched
+Version: 2.1
+Architecture: iphoneos-arm64
+Maintainer: Little 34306
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: rootless/watched_2.1_rootless_arm64.deb
+Size: 9354
+MD5sum: 71bfafb5bbf29a4b2824b29e688c7df3
+SHA1: 2f811f0b758faad468b0312ff8cbe7e027b4b504
+SHA256: 9ccce8d7935626775de8c4c50e7df7ab72f6a6923bc7b39320e8e8220170f157
+Section: Tweaks
+Description: Paired your Apple Watch on new watchOS with older iOS
+Author: 34306
+Name: watched
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.34306.watched/js.json
 
 Package: com.chargelimiter.mod
 Version: 1.13.2
@@ -1937,6 +1971,23 @@ Author: 577FKJ
 Name: WatchFix
 Icon: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/cn.fkj233.watchfix.mod/js.json
+
+Package: com.34306.watched
+Version: 2.1
+Architecture: iphoneos-arm64e
+Maintainer: Little 34306
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: roothide/watched_2.1_roothide_arm64e.deb
+Size: 9278
+MD5sum: 91de8d85ab643ed18e488184a81bb4a9
+SHA1: c15991c609df53da7e9b4b72db196f5335f397c3
+SHA256: ef3bf00f2ec45bdb82e243cec67148631da5756282bcb82298b02cfb85f70d43
+Section: Tweaks
+Description: Paired your Apple Watch on new watchOS with older iOS
+Author: 34306
+Name: watched
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.34306.watched/js.json
 
 Package: com.chargelimiter.mod
 Version: 1.13.2

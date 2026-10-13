@@ -1,0 +1,75 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "",
+  "tintColor": "#5ac8fa",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "watched 是一个开源 tweak，让你的 Apple Watch 在 watchOS 比 iPhone 的 iOS 官方支持的版本更新时仍能完成配对。\n\n**配对解锁（来自上游 34306/watched 2.0）**\n- 配对兼容性版本闸门 `NRPairingCompatibilityVersionInfo`\n- Watch 能力回退与 Watch 应用运行时兼容性（`NRDevice` / `NRMutableDevice`、`ACXRemoteApplication`）\n- NanoRegistry / pairedsync 配对相关偏好写入\n\n**本 fork 移植自 WatchFix 的额外修复**\n- 阻止 Messages 自动卸载：修正 Watch 侧应用归属映射并让 Watch bundle 兼容性校验通过，避免 Messages 等系统应用因兼容性判断失败被自动卸载\n- APS 保活：apsd 收到伴侣应用的 presence 时上报代理已连接状态，减少反复重连\n- BLE NearbyAction 0x00 拦截：忽略 `CBDevice` 的 0x00 NearbyAction 设置，降低由此产生的蓝牙活动与耗电\n\n**注意**\n- 支持 iOS 15+\n- 安装后请同时重启 iPhone 与 Apple Watch，然后重新配对\n- 未测试从更新的 Watch 备份恢复，请先备份 Apple Watch 数据\n- 若用第三方工具管理注入过滤器，请保留 `apsd`、`appconduitd`、`installd`、`bluetoothd`、`MobileInstallationHelperService` 与 `com.apple.Bridge`，删除后对应修复会静默失效"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/tunecc/watched",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "2.1",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-10-13",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 10
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "本版本以上游 watched **2.0** 为基础，配对解锁的代码一行没动，只增加了三项修复并扩大了注入范围。\n\n**相对上游新增（移植自 WatchFix）**\n- 阻止 Messages 等系统应用被自动卸载：修正 Watch 侧的应用归属映射与内嵌 Watch bundle 的兼容性校验\n- APS 保活：apsd 收到伴侣应用的 presence 后主动上报代理已连接，减少反复重连\n- 拦截 BLE NearbyAction 0x00：忽略 bluetoothd 中 `CBDevice` 的 0x00 NearbyAction 设置，减少无谓的蓝牙活动与耗电\n\n**注入范围**\n上游只注入 SpringBoard。本版本按功能分别注入 `apsd`、`appconduitd`、`installd`、`bluetoothd`、`MobileInstallationHelperService`，并加入 `com.apple.Bridge` bundle，每个进程只加载它需要的那一项修复。用第三方工具管理注入过滤器时请保留这些条目，删掉后对应修复会静默失效。"
+        }
+      ]
+    }
+  ]
+}
