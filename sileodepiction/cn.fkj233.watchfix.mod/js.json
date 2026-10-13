@@ -71,6 +71,47 @@
           "views": [
             {
               "class": "DepictionLabelView",
+              "text": "2.0.6",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-10-13",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 10
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "本版同步了上游的兼容性与稳定性改进，同时保留本分支的独立功能。\n\n**同步上游：**\n- apsd 防崩溃修复\n- 配对设置写入改进\n- 相关服务的定向重启\n\n**本分支：**\n- 相关插件的 iOS 支持范围扩展至 17.3.1；旧版已安装的插件可在应用内看到“更新”入口\n- “避免信息卸载”现为独立插件，可与 AppsSupport 分别安装\n- 提供可选的“WatchOS 更新屏蔽”插件；需要正常检查 watchOS 更新时，请勿安装它\n- 插件详情提供更清楚的说明和兼容要求，应用支持简体中文、繁体中文和英文"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 24
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
               "text": "2.0.5",
               "fontSize": 17,
               "fontWeight": "bold",
