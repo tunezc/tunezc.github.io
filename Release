@@ -7,16 +7,16 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Tune's repo
 Homepage: https://tunezc.github.io/
-Date: Tue, 13 Oct 2026 02:57:42 +0000
+Date: Mon, 19 Oct 2026 04:55:07 +0000
 MD5Sum:
- aafd29b5f8b6f3474d85812838c0c6dd           109208 Packages
- 3ddaebc3a139799a40effabf7d0b53aa            23402 Packages.gz
- a19683dac1f5f00467434ad280ddb96a            17056 Packages.xz
- 407d5731990af3fe54e56ec4643ad923            17449 Packages.bz2
- 610d4d214c56ff0fd05393a7a0956edb            18913 Packages.zst
+ cca9f7f4b34e167a2e8c32b0a615c910           111346 Packages
+ 11d5a5e280c2171b63d08b15bb6b424d            23820 Packages.gz
+ c7242535ff151c1199337a3f674032f4            17348 Packages.xz
+ 40d14f05f1160f3806d341c75b56ea1f            17754 Packages.bz2
+ 43a2403279054583bf45e28da01fb8b4            19257 Packages.zst
 SHA256:
- bd49ba42604d25238a5402f47c9c7d06e64088e05cb6009fbe5a3251fba52232           109208 Packages
- 32c5566b0e2ea0a68a59a93451ce49ad736f7331f16f66221f2845248a4fee13            23402 Packages.gz
- 9c1e81f79f71b14e5407afeb35be2c04728b30f48d61a75148d7f7a7a19b3054            17056 Packages.xz
- 2363165d87376328108b3b2b3dbd986bbc8db467d903f2e7006be1610f18d0d7            17449 Packages.bz2
- b40510752666608aebeef9928494ac395fa8533491a2ec04799376685b0e5631            18913 Packages.zst
+ ffc9afee7915c394d0772b3930e7cd22f184435aa6b290edf4f3e745b76f10ad           111346 Packages
+ 40c1c855df3c983ef1692ad5142b684c193b1ad1e2b3f065fdf3616c36665a0e            23820 Packages.gz
+ 74fa8774abc2e5bcb5bbe5853118cc6ea52a6e9c79203b17454df41e6c4f1f98            17348 Packages.xz
+ 80bd9b495cf730539ac8e571fa3285a5c3a830c09d73f66df61c7691832c403d            17754 Packages.bz2
+ c9607a8d6bb568dc84838eda3c2ed39c5ae36fd10149c491519f5e1ad1bf3c15            19257 Packages.zst

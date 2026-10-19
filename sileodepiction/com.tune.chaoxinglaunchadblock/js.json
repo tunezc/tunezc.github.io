@@ -44,6 +44,47 @@
           "views": [
             {
               "class": "DepictionLabelView",
+              "text": "0.0.3",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-10-19",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 10
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "本版本同步提供 rootful / rootless / roothide 三种安装包，并已上架本源。\n\n**修复**\n- 首次运行 / 隐私同意时的启动死锁（iOS 16，UMCommon 7.3.5）：此前点击“同意”后应用会冻结在开屏界面，最终被系统 watchdog 杀死（0x8BADF00D）。根因是友盟 `UMOpenUDID` 无本地缓存时会同步扫描并写入 100 个 `UIPasteboard`，与友盟后台初始化相互等待；现改由 `NSUserDefaults` 提供稳定的 OpenUDID，初始化路径不再读写剪贴板。\n\n**改进**\n- 统一 rootful / rootless / roothide 打包与校验，规范包内文件权限，修复过滤器 plist 以错误权限进包、可能导致插件不注入的问题。\n- 新增 CHANGELOG.md 更新日志。\n\n已在真机（roothide）验证：正常注入，隐私同意后不再卡死。安装或更新后请彻底结束学习通再重新打开。"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 24
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
               "text": "0.0.2",
               "fontSize": 17,
               "fontWeight": "bold",

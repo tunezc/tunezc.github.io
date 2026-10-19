@@ -355,6 +355,24 @@ Author: Tune
 Name: AutoKiller
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.autokiller/js.json
 
+Package: com.tune.chaoxinglaunchadblock
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: tune
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: rootful/ChaoxingLaunchAdBlock_0.0.3_rootful_arm.deb
+Size: 7384
+MD5sum: ca14707a50ccbc853954169bf8e1170a
+SHA1: 608a4ee453dbd40777fe2a9a05189b7ca7231d08
+SHA256: ad361b32d06272146e61abab30196de94b5e092bf5a46cc8a7f17bb6390f5ced
+Section: Ad Block
+Description: Block Chaoxing splash ad launch requests.
+Author: tune
+Name: ChaoxingLaunchAdBlock
+Icon: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/js.json
+
 Package: com.tune.ctrip-nosplash
 Version: 0.1.0
 Architecture: iphoneos-arm
@@ -1313,6 +1331,24 @@ Size: 5560
 MD5sum: fbeb63927e3007bc6f472a7fbbe5e6f2
 SHA1: f5d24b1d481fdb4dbaadc9f649d2146637073c80
 SHA256: da970e60f38a84eec6f6f4535b6cea483f9bb668000c646a045ec0f66eb61a6f
+Section: Ad Block
+Description: Block Chaoxing splash ad launch requests.
+Author: tune
+Name: ChaoxingLaunchAdBlock
+Icon: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/js.json
+
+Package: com.tune.chaoxinglaunchadblock
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: tune
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: rootless/ChaoxingLaunchAdBlock_0.0.3_rootless_arm64.deb
+Size: 7468
+MD5sum: fd895624cd28515a803e1e2559febc9c
+SHA1: 026172f0c68e5995d12764b618b5f7e2f9607012
+SHA256: 6f16d415bd7f31906ddcbb10429dc1212d350d4a3e19855ce3d85001bf054fab
 Section: Ad Block
 Description: Block Chaoxing splash ad launch requests.
 Author: tune
@@ -2340,6 +2376,24 @@ Size: 5498
 MD5sum: b31940df959cce925e73de11a13733b7
 SHA1: 2e6b1ab561a05ac43a184e385fdbbbf358c3ade8
 SHA256: 811c6e3495f4ac4aa714ce7ac3b08e607cd551678b085dddd4316d65e0844243
+Section: Ad Block
+Description: Block Chaoxing splash ad launch requests.
+Author: tune
+Name: ChaoxingLaunchAdBlock
+Icon: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.chaoxinglaunchadblock/js.json
+
+Package: com.tune.chaoxinglaunchadblock
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: tune
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: roothide/ChaoxingLaunchAdBlock_0.0.3_roothide_arm64e.deb
+Size: 7404
+MD5sum: a6b41810fbd976b61761502de4192308
+SHA1: dcfe588fa5804f83be68d5e3302b439455aa38cc
+SHA256: 747ef2bc269c8f2af92ff7b3de3a3229b357ba699a6f0e4907a0d73ad4c7727c
 Section: Ad Block
 Description: Block Chaoxing splash ad launch requests.
 Author: tune
