@@ -339,6 +339,24 @@ Name: 12306-NoSplash
 Icon: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/js.json
 
+Package: com.local.12306nosplash
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Tune
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit
+Filename: rootful/12306-NoSplash_1.0.1_rootful_arm.deb
+Size: 5684
+MD5sum: 4c804f57154190dfe17e9d96912d0b83
+SHA1: 86dd68dea43cb098a0ec29ef1f33fec7054da4a4
+SHA256: 9e6af3229b053294a78b614645e224981aa28241d44feb0c2d8d9479703d5266
+Section: Ad Block
+Description: Skip 12306 fullscreen splash ads (5.9.6). Cold start + resume. Formerly Skip12306Splash.
+Author: Tune
+Name: 12306-NoSplash
+Icon: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/js.json
+
 Package: com.tune.autokiller
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -1300,6 +1318,24 @@ SHA256: 7c8552704945b54ab7984210b7fc4ccd48a1c0620b55870ad9dd581bc73ffb45
 Section: Ad Block
 Description: Skip 12306 fullscreen splash ads (5.9.6). Cold start + resume. Formerly Skip12306Splash.
 Author: local
+Name: 12306-NoSplash
+Icon: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/js.json
+
+Package: com.local.12306nosplash
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Tune
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit
+Filename: rootless/12306-NoSplash_1.0.1_rootless_arm64.deb
+Size: 5780
+MD5sum: 420c3915259a708760073792e68cac70
+SHA1: 6b5666f125097f0b165fc62d984f49c1628caea2
+SHA256: 79806552dcfafd8e993e56e2c32efd81460b275873f7b15bdaf178ea6fe4b6ae
+Section: Ad Block
+Description: Skip 12306 fullscreen splash ads (5.9.6). Cold start + resume. Formerly Skip12306Splash.
+Author: Tune
 Name: 12306-NoSplash
 Icon: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/js.json
@@ -2345,6 +2381,24 @@ SHA256: 4cd53a50fe0fab2d705ac343eea3704a2b84fa7ce1d1b85179bacb9bd3fc2dcf
 Section: Ad Block
 Description: Skip 12306 fullscreen splash ads (5.9.6). Cold start + resume. Formerly Skip12306Splash.
 Author: local
+Name: 12306-NoSplash
+Icon: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/js.json
+
+Package: com.local.12306nosplash
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Tune
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit
+Filename: roothide/12306-NoSplash_1.0.1_roothide_arm64e.deb
+Size: 5716
+MD5sum: 9a8c59392235f9877cf96952afabeae8
+SHA1: 5a6b7d5a22d204ba64b541c048272ad8a41f1d11
+SHA256: 333727483cb0590be4025a38788de69ebd57db23904c4d9799435d9bd94bab02
+Section: Ad Block
+Description: Skip 12306 fullscreen splash ads (5.9.6). Cold start + resume. Formerly Skip12306Splash.
+Author: Tune
 Name: 12306-NoSplash
 Icon: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/js.json

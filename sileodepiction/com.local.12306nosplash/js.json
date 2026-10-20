@@ -10,7 +10,20 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "跳过 铁路12306 全屏开屏广告，基于 `5.9.6` 开发，支持冷启动与从后台恢复。安装后请彻底结束 12306 并重新打开；若后续版本调整启动页逻辑，可能需要重新适配。"
+          "markdown": "跳过 铁路12306 全屏开屏广告，基于 `5.9.6` 开发，覆盖冷启动与从后台恢复两条路径。\n\n插件只注入 `cn.12306.rails12306`（进程 `MTPotal`），在 App 自研广告协调入口、开屏 SDK、呈现视图三层同时拦截：`AdvertisService` 的页面级入口、`BonSplashAD` 的 splash 窗口创建与贴图链路，以及 MS / BeiZi 两家 SDK 的加载与展示方法。SDK 广告加载失败时 App 会改走「自运营兜底」链路另铺一屏带跳过按钮的开屏页，这条路径同样已被封口；万一仍有广告页出现，`MSSplashAdViewController` 展示时会直接 dismiss 兜底。\n\n安装后请彻底结束 12306 并重新打开；若后续版本调整启动页逻辑，或改动相关类名与方法名，可能需要重新适配。"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/tunecc/12306-NoSplash",
+          "openExternal": true
         },
         {
           "class": "DepictionSpacerView",
@@ -25,6 +38,47 @@
         {
           "class": "DepictionSpacerView",
           "spacing": 16
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.0.1",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-10-20",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 10
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**新增**\n\n- 呈现层拦截 `BonSplashAD`：拦掉 splash 窗口创建与贴图链路（`addLaunchView` / `addAdView` / `showBtnSkip` 等），`getLaunchView` 不再返回视图\n- 呈现层拦截 `MSSplashScreenView`：拦掉展示、倒计时与定时器，`isShowSplash` 恒为 `NO`\n- 兜底拦截 `MSSplashAdLoaderManager` 与 `BeiZiSplashManager` 的平台分发入口，即使素材已拿到也不展示\n- DEBUG 探针扩展：新增上述四类的类/方法存在性检测\n\n**修复**\n\n- SDK 广告加载失败时，App 改走「自运营兜底」链路另铺一屏带跳过按钮的开屏页。此前只拦了 SDK 入口，漏了这条路径，断网或素材失效时仍会看到广告\n- `Makefile` 的 `THEOS` 默认路径原本指向一个不存在的个人目录，改为 `/opt/theos`，别人 clone 下来可以正常编译\n- deb 内 plist 权限与属主不正确，导致 ElleKit on Relaxin 读不到 filter、无法注入"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 24
         },
         {
           "class": "DepictionLayerView",
