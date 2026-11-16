@@ -1857,6 +1857,23 @@ Name: ShihuoSkipla
 Icon: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/js.json
 
+Package: com.tune.torchoffonsleep
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Tune <176898395+tunecc@users.noreply.github.com>
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: rootless/TorchOffOnSleep_1.0.0_rootless_arm64.deb
+Size: 5778
+MD5sum: 80d3c872d5c3fad43e3630f670eca289
+SHA1: 04ebeda4524a8259c9f2f0638d0466d03614f5ae
+SHA256: 33b62aa21857e98af89b3642d21d64e472e3810c6259bd183cb6dfd2e8a168e0
+Section: Tweaks
+Description: Turn the flashlight off with a single side-button press while the screen is off.
+Author: Tune <176898395+tunecc@users.noreply.github.com>
+Name: TorchOffOnSleep
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.torchoffonsleep/js.json
+
 Package: com.tune.trollfools-skip
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -2934,6 +2951,23 @@ Author: Tune
 Name: ShihuoSkipla
 Icon: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.shihuoskipla/js.json
+
+Package: com.tune.torchoffonsleep
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Tune <176898395+tunecc@users.noreply.github.com>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: roothide/TorchOffOnSleep_1.0.0_roothide_arm64e.deb
+Size: 4344
+MD5sum: c4e6cf2a81557d3cb5a5cb4ef2379aac
+SHA1: a8f76a348a73ef1e3cf8c63e4d11e5d400a0e732
+SHA256: 068691f6c022855859ca6442f998324a70207ede66ce90207f09bde10ae297a2
+Section: Tweaks
+Description: Turn the flashlight off with a single side-button press while the screen is off.
+Author: Tune <176898395+tunecc@users.noreply.github.com>
+Name: TorchOffOnSleep
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.tune.torchoffonsleep/js.json
 
 Package: com.tune.trollfools-skip
 Version: 1.0.0

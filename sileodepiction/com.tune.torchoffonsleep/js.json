@@ -1,0 +1,86 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "",
+  "tintColor": "#ff9f0a",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "熄屏状态下按一次侧键，只关手电筒，不点亮屏幕。\n\n原生 iOS 里，熄屏时按侧键一定会亮屏。手电筒开着的时候想关灯，只能先把屏幕点亮，再解锁或回到控制中心——夜里这一下亮屏相当刺眼。本插件只改这一条路径：**屏幕已熄灭、手电筒开启时，按一次侧键 → 手电筒关闭、屏幕保持熄灭**；紧接着再按一次 → 正常亮屏进入锁屏界面。\n\n其余场景一律保持原生行为：屏幕点亮时按侧键原生息屏且不碰手电筒、手电筒关闭时侧键原生亮屏、双击开相机、长按 SOS 紧急联络、长按加音量键强制重启，插件都不拦截。常亮显示（AOD）处于显示态时不关灯，继承系统语义。\n\n手电筒是否开启、以及关灯动作，都走系统自己的通道 `SBUIFlashlightController`，因此锁屏快捷按钮、控制中心、灵动岛 / 状态栏各处的开关状态始终一致，不会出现「灯已灭但界面还显示开启」。\n\n插件只注入 SpringBoard，没有设置界面、没有配置文件、不写持久化状态、不注册守护进程，卸载即完全恢复原生行为。\n\n当前版本已在 iOS 17.1 与 iOS 16.1.2 真机验证通过；17.0、17.2–17.4 等其它小版本未逐台测试。软件源会按设备架构自动分发 roothide 或 rootless 包，两者包 id 相同，请勿在同一环境重复安装。"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "GitHub",
+          "action": "https://github.com/tunecc/TorchOffOnSleep",
+          "openExternal": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.0.0",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-11-16",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 10
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "初始发布。\n\n- 屏幕已熄灭且手电筒开启时，按一次侧键只关闭手电筒，屏幕保持熄灭。\n- 紧接着再按一次侧键，正常亮屏进入锁屏界面。\n- 其余按压场景与原生行为完全一致，不拦截双击、长按 SOS、强制重启。\n- 已在 iOS 17.1 与 iOS 16.1.2 真机验证通过。"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    }
+  ]
+}
