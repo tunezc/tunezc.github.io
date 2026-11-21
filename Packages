@@ -2421,6 +2421,24 @@ Name: 12306-NoSplash
 Icon: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/icon.png
 SileoDepiction: https://tunezc.github.io/sileodepiction/com.local.12306nosplash/js.json
 
+Package: com.sini921.ccborder
+Version: 1.1.2-45
+Architecture: iphoneos-arm64e
+Maintainer: fiore & p2kdev & SINI
+Installed-Size: 1028
+Depends: mobilesubstrate, firmware (>= 16.0), com.opa334.libsandy
+Filename: roothide/com.sini921.ccborder_1.1.2-45_iphoneos-arm64e.deb
+Size: 213240
+MD5sum: 8feb29fd72af0adf0fac215faab3e3a1
+SHA1: e1372c3c23a9cef9257a6f319de5c65de06306aa
+SHA256: d7c564e6cbd58d30f8c6fa4ed340c131c9c625bf7880eb57ae8bc1ff19b34730
+Section: Tweaks
+Description: 本版修复：iOS 17 上开启「自定义模块圆角」后，媒体播放模块右上角的输出设备（AirPlay）按钮错位的问题，现已恢复系统默认位置。
+Author: fiore & p2kdev & SINI
+Name: CCBorder(roothide)
+Icon: https://tunezc.github.io/sileodepiction/com.sini921.ccborder/icon.png
+SileoDepiction: https://tunezc.github.io/sileodepiction/com.sini921.ccborder/js.json
+
 Package: com.tune.autokiller
 Version: 1.0.0
 Architecture: iphoneos-arm64e

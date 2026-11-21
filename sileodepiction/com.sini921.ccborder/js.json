@@ -1,0 +1,80 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
+  "headerImage": "",
+  "tintColor": "#0a84ff",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "控制中心美化调整插件（基于 fiore & p2kdev & SINI 的开源修改编译，去掉了 AlderisColorPicker 依赖）。提供模块边框、自定义模块圆角、媒体模块布局、图标着色等控制中心调整能力。\n\n**本版（1.1.2-45）修复**：iOS 17 上开启「自定义模块圆角」后，媒体播放模块右上角的输出设备（AirPlay）按钮会错位的问题。原因是插件在圆角模式下把输出设备按钮强制写到了一个按 iOS 16 布局调死的坐标上；iOS 17 的控制中心模块布局已经变化，按钮就被顶出了媒体模块。本版在 iOS 17 及以上系统不再强制移动该按钮（保留系统默认位置），iOS 16 的原有行为保持不变。对 dylib 的修改以指令级二进制补丁完成，仅改动相关布局分支，其余功能不受影响。\n\n当前版本已在 iOS 17.1（iPhone 15 Pro Max）与 iOS 16.1.2（iPhone XS）真机验证通过：开启「自定义模块圆角」后按钮位置正常，关闭开关行为与原生一致。"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.1.2-45",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "usePadding": false,
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-11-21",
+              "fontSize": 15,
+              "fontWeight": "regular",
+              "textColor": "#8E8E93",
+              "usePadding": false,
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 10
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "修复 iOS 17 上开启「自定义模块圆角」后媒体模块输出设备（AirPlay）按钮错位的问题，恢复系统默认位置；iOS 16 行为不变。"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    }
+  ]
+}
